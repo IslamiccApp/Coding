@@ -1,9 +1,12 @@
 import './App.css';
+import WebMenu from './components/WebMenu';
+import MobilMenu from './components/MobilMenu';
 
 function App() {
   return (
     <div className="App">
-selam
+      <WebMenu/>
+      <MobilMenu/>
     </div>
   );
 }
