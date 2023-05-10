@@ -1,12 +1,21 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
+import React from 'react';
 import WebMenu from './components/WebMenu';
-import MobilMenu from './components/MobilMenu';
+import MobileMenu from './components/MobilMenu';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">,
+      
       <WebMenu/>
-      <MobilMenu/>
+      <MobileMenu/>
+
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
     </div>
   );
 }
