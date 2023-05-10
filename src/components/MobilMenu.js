@@ -30,15 +30,15 @@ function MobileMenu() {
   };
   
   const list = (anchor) => (
-    <Box
+    <Box 
+    className='arkaplan-mobil'
       sx={{ width: 250 }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-       
-          <ListItem  disablePadding>
+      <List className='list'>
+          <ListItem   className='list-item' disablePadding>
             <ListItemButton>
               <ListItemIcon>
                 <HomeOutlinedIcon/>
@@ -47,7 +47,7 @@ function MobileMenu() {
             </ListItemButton>
           </ListItem>
 
-          <ListItem disablePadding>
+          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
                 <ListAltOutlinedIcon/>
@@ -55,15 +55,15 @@ function MobileMenu() {
               <ListItemText>Zikirlemir</ListItemText>
             </ListItemButton>
          </ListItem>
-         <ListItem disablePadding>
-            <ListItemButton>
+         <ListItem  className='list-item'  disablePadding>
+            <ListItemButton> 
               <ListItemIcon>
                 <DarkModeOutlinedIcon/>
               </ListItemIcon>
               <ListItemText>Hadisler</ListItemText>
             </ListItemButton>
          </ListItem>
-         <ListItem disablePadding>
+         <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
                 <Brightness7OutlinedIcon/>
@@ -71,7 +71,7 @@ function MobileMenu() {
               <ListItemText>Esmaül Hüsna</ListItemText>
             </ListItemButton>
          </ListItem>
-         <ListItem disablePadding>
+         <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
                 <ImageSearchOutlinedIcon/>
@@ -79,7 +79,7 @@ function MobileMenu() {
               <ListItemText>Resmi Değiştir</ListItemText>
             </ListItemButton>
          </ListItem>
-         <ListItem disablePadding>
+         <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
                 <SettingsOutlinedIcon/>

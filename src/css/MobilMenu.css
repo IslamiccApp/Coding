@@ -10,5 +10,22 @@
     }
     .arkaplan-mobil {
       display: block !important;
+      padding-right:2rem ;
     }
+    .list{
+      margin-right: 10rem;
+      padding: 2rem;
+    }
+    .list .list-item  {
+      
+      margin: 1rem !important;
+      background-color: bisque;
+      border-radius: 1rem;
+      transition: 0.5s;
+    }
+    .list .list-item:active  {
+      scale: 1.05;
+    }  
+
+
   }
