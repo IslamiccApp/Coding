@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=IBM+Plex+Mono:ital@1&family=Kalam&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.hadis{
+    align-content: center;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 5rem;
+}
+
+.baslik{
+    display: flex;
+    align-content: left;
+
+
+}
+.container_hadis{
+    width: 98%;
+    margin: auto;
+    margin-top: 0;
+}
+
+.container_hadis h1{
+    font-size: 35px;
+    font-family:dancing script;
+    font-size: 4.5rem;
+
+}
+.container_hadis hr{
+    height: 2px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hadis_1 {
+    background-color: #F0E3D8;
+    padding: 5rem;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.8s;
+    display: flex;
+
+}
+
+
+.hadis_1:hover {
+    background-color: #e1d5c9;
+}
+
+
+.hadis_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  
+
+}
+
+.hadis_adi{
+    min-width: 20rem;
+    max-width: 80rem;
+
+
+}

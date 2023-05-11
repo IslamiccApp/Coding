@@ -50,6 +50,8 @@ function MobileMenu() {
           </ListItem>
           </Link>
 
+
+          <Link to='/zikirlerim'>
           <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -58,6 +60,11 @@ function MobileMenu() {
               <ListItemText>Zikirlemir</ListItemText>
             </ListItemButton>
          </ListItem>
+          </Link>
+
+
+
+         <Link to='/hadisler'>
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton> 
               <ListItemIcon>
@@ -66,6 +73,9 @@ function MobileMenu() {
               <ListItemText>Hadisler</ListItemText>
             </ListItemButton>
          </ListItem>
+          </Link>
+
+
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>

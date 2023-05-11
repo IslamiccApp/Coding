@@ -17,7 +17,7 @@ function Zikirlerim() {
             Zikir 
             </p>
             <p className='zikir_anlami'>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
             </p>
         </div>
         <div className='zikir_btn'>
@@ -33,7 +33,7 @@ function Zikirlerim() {
             Zikir 
             </p>
             <p className='zikir_anlami'>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “İslâm, güzel ahlâktır.” (Kenzü’l-Ummâl, 3/17, HadisNo: 5225.)
             </p>
         </div>
         <div className='zikir_btn'>
@@ -49,7 +49,7 @@ function Zikirlerim() {
             Zikir 
             </p>
             <p className='zikir_anlami'>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “İnsanlara merhamet etmeyene Allah merhamet etmez.” (Müslim, Fedâil, 66; Tirmizî, Birr, 16.)
             </p>
         </div>
         <div className='zikir_btn'>
@@ -65,7 +65,7 @@ function Zikirlerim() {
             Zikir 
             </p>
             <p className='zikir_anlami'>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “Kolaylaştırınız, güçleştirmeyiniz, müjdeleyiniz, nefret ettirmeyiniz.” (Buhârî, İlm, 12; Müslim, Cihâd, 6.)
             </p>
         </div>
         <div className='zikir_btn'>
@@ -80,7 +80,7 @@ function Zikirlerim() {
             Zikir 
             </p>
             <p className='zikir_anlami'>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            “İnsanların Peygamberlerden öğrenegeldikleri sözlerden biri de: ‘Utanmadıktan sonra dilediğini yap!’ sözüdür.” (Buhârî, Enbiyâ, 54; EbuDâvûd, Edeb, 6.)
             </p>
         </div>
         <div className='zikir_btn'>
