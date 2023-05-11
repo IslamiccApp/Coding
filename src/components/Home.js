@@ -1,6 +1,7 @@
 import React from 'react'
 import resim from '../img/sayac_cerceve.png'
 import cerceve from '../img/button_cerceve.png'
+import el from '../img/zikir_el.png'
 
 
 
@@ -26,7 +27,10 @@ function Home() {
       </div>
       </div>
       <div className='button'>
-        <button> <img src={cerceve} alt='btn_cerceve' /> </button>
+        <button>
+          <img src={cerceve} alt='btn_cerceve' />
+          <img className='el' src={el} alt='zikir çeken el' />
+        </button>
       </div>
     </div>
 

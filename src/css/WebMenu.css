@@ -160,9 +160,11 @@ body{
   width: 20rem;
   height: 20rem;
   border-radius: 50rem;
-  background-color: rgb(37, 185, 0);
+  background-color: #00cd1f38;
   transition: 0.5s;
 }
+
+
 
 
 .button img {
@@ -171,6 +173,15 @@ body{
   margin-top: -4.23rem;
   margin-left: -4.34rem;
   transition: 0.5s;
+}
+
+.el{
+  width: 120px !important;
+  height: 120px !important;
+  margin-top: -20rem !important;
+  margin-left: -6rem !important;
+  position: absolute;
+
 }
 
 
