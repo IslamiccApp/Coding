@@ -51,11 +51,10 @@ body{
 .webmenu-arkaplan ul li svg{
   font-size: 2rem;
   margin-right: 1rem;
-
 }
 
 
-.webmenu-arkaplan ul li::before{
+.webmenu-arkaplan ul li::before{ /* hover sonraki alt çizgi oluşması witdh 0 dan başladı */
   content:"";
   position: absolute;
   left: 0;
@@ -66,7 +65,7 @@ body{
   transition: 0.8s;
 }
 
-.webmenu-arkaplan ul li:hover::before{
+.webmenu-arkaplan ul li:hover::before{ /* 0,8 sn de width 100% e doğru uzadı */
   width: 100%;
   transition: 0.8s;
 }

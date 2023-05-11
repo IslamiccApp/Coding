@@ -6,12 +6,13 @@ import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import Brightness7OutlinedIcon from '@mui/icons-material/Brightness7Outlined';
 import ImageSearchOutlinedIcon from '@mui/icons-material/ImageSearchOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import { Link } from 'react-router-dom';
 
 function WebMenu() {
   return (
     <div className='webmenu-arkaplan'>
         <ul>
-            <li><HomeOutlinedIcon/>Ana Sayfa</li>
+            <Link><li><HomeOutlinedIcon/>Ana Sayfa</li></Link>
             <li><ListAltOutlinedIcon/>Zikirler</li>
             <li><DarkModeOutlinedIcon/>Hadisler</li>
             <li><Brightness7OutlinedIcon/>Esmaül Hüsna</li>

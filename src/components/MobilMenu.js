@@ -15,6 +15,7 @@ import Brightness7OutlinedIcon from '@mui/icons-material/Brightness7Outlined';
 import ImageSearchOutlinedIcon from '@mui/icons-material/ImageSearchOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
+import { Link } from 'react-router-dom';
 
 function MobileMenu() {
   const [state, setState] = React.useState({
@@ -38,6 +39,7 @@ function MobileMenu() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List className='list'>
+          <Link to='/'>
           <ListItem   className='list-item' disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -46,6 +48,7 @@ function MobileMenu() {
               <ListItemText>Ana Sayfa</ListItemText>
             </ListItemButton>
           </ListItem>
+          </Link>
 
           <ListItem  className='list-item'  disablePadding>
             <ListItemButton>

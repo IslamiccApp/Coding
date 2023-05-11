@@ -8,7 +8,7 @@ import MobileMenu from './components/MobilMenu';
 
 function App() {
   return (
-    <div className="App">,
+    <div className="App">
       
       <WebMenu/>
       <MobileMenu/>
