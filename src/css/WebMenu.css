@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Kalam&family=Poppins:wght@100;300;400;500;600&display=swap');
 html{
   font-size: 10px;
 }
@@ -24,8 +25,7 @@ body{
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    height: 7rem;
-
+    height: 9rem;
 }
 
 
@@ -41,6 +41,7 @@ body{
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .webmenu-arkaplan ul li:hover{
@@ -51,10 +52,11 @@ body{
 .webmenu-arkaplan ul li svg{
   font-size: 2rem;
   margin-right: 1rem;
+
 }
 
 
-.webmenu-arkaplan ul li::before{ /* hover sonraki alt çizgi oluşması witdh 0 dan başladı */
+.webmenu-arkaplan ul li::before{
   content:"";
   position: absolute;
   left: 0;
@@ -65,10 +67,113 @@ body{
   transition: 0.8s;
 }
 
-.webmenu-arkaplan ul li:hover::before{ /* 0,8 sn de width 100% e doğru uzadı */
+.webmenu-arkaplan ul li:hover::before{
   width: 100%;
   transition: 0.8s;
 }
+
+.container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 5rem;
+}
+
+
+.container_text{
+  width: 140rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+
+  border-radius: 2rem;
+  background-color: #e4d6ca;
+  transition: 0.5s;
+
+  padding: 0 0 2rem 0;
+}
+
+
+.container_text h2 {
+  font-size: 5rem;
+  margin: 2rem 0 0 0 ;
+
+  font-family: 'Kalam', cursive;
+
+
+}
+
+.container_text span{
+  display: inline-block;
+  width:120rem ;
+  color: black;
+
+}
+
+
+
+
+.sayac{
+  height: 100px;
+  width: 100%;
+  margin: 4rem 0 0 0 ;
+}
+
+.sayac_ekran{
+  margin: auto;
+  width: 400px;
+  height: 100px;
+  background-color: antiquewhite;
+  border-radius: 5rem;
+  display: absolute;
+}
+
+
+.sayac img {
+ position: absolute;
+  width: 450px;
+  height: 130px;
+  margin-top: -25px;
+  margin-left: -25px;
+
+
+}
+.sayac_ekran span {
+  position: absolute;
+  font-size: 80px;
+  display: inline-block;
+  width: 400px;
+  text-align: center;
+}
+
+.button{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.button button{
+  background-color: transparent;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50rem;
+  background-color: rgb(37, 185, 0);
+}
+
+
+.button img {
+  width:27.3rem ;
+  height: 27.3rem;
+  margin-top: -4.23rem;
+  margin-left: -4.34rem;
+}
+
+
+
+
 
 
 
