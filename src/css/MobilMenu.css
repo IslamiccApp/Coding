@@ -5,17 +5,20 @@
 }
 
 @media only screen and (max-width: 830px) {
+
+ 
     body{
       background-image: url(https://images.pexels.com/photos/15224039/pexels-photo-15224039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     }
+
+
+
+  
     .arkaplan-mobil {
       display: block !important;
       padding-right:2rem ;
-  
     }
-    .list{
-  
-    }
+
     .list .list-item  {
       
       margin: 1rem !important;

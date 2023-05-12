@@ -98,10 +98,7 @@ body{
 .container_text h2 {
   font-size: 5rem;
   margin: 2rem 0 0 0 ;
-
   font-family: 'Kalam', cursive;
-
-
 }
 
 .container_text span{
@@ -110,8 +107,6 @@ body{
   color: black;
 
 }
-
-
 
 
 .sayac{
@@ -164,8 +159,17 @@ body{
   transition: 0.5s;
 }
 
+.button button:hover{
+  scale: 1.05;
 
+  transition: 0.5s;
+}
 
+.button button:active{
+  scale: 0.95;
+
+  transition: 0.5s;
+}
 
 .button img {
   width:27.3rem ;
