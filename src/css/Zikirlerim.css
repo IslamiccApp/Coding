@@ -1,4 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=IBM+Plex+Mono:ital@1&family=Kalam&family=Poppins:wght@100;300;400;500;600&display=swap');
+/* ferhat css */
+.zikirlerim_zikir_1
+{
+    background-color: #F0E3D8;
+    border-radius: 10px;
+    margin-top: 15px !important;
+}
+.zikir_skor_ve_butonlar
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+.buton_devamet
+{
+    background-color: transparent;
+    border-radius: 8px;
+    border: #6e6e6e  2px solid;
+    font-size: 15px;
+    transition: 0.8s;
+    text-align: center;
+    margin-right: 20px;
+}
+.buton_sil
+{
+    background-color: transparent;
+    border-radius: 8px;
+    border: #6e6e6e  2px solid;
+    font-size: 15px;
+    transition: 0.8s;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
 .container_zikirler{
     width: 80%;
     margin: auto;
@@ -60,6 +97,7 @@
 
 
 }
+
 
 .zikir_btn .btn{
     background-color: transparent;

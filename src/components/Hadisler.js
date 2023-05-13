@@ -1,10 +1,46 @@
 import React from 'react'
 import  '../css/Hadisler.css'
+import { Grid ,Typography } from '@mui/material'
 
 function Hadisler() {
   return (
+    <>
+    <Grid container row='true' sx={{display:'flex',justifyContent:'center'}}>
+        <Grid md={10} xs={11} item mt={3}> {/* başlık ve alt çizgi */}
+            <Typography variant='h3' fontFamily={'dancing script'}>
+                Hadislerden Seçmeler
+                <hr/>
+            </Typography>
+        </Grid>
+        <Grid md={10} xs={11} item mt={3} className='hadis_11'> {/*Hadis-1 */}
+        <Grid container display='flex' alignItems='center' p={'1%'}>
+            <Grid xs={2} p={'1%'}>
+                <Typography variant='h5'>Hadis Adı</Typography>
+            </Grid>
+            <Grid xs={10}p={'1%'}>
+                <Typography variant='h5'>
+                (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
+                </Typography>
+            </Grid>
+        </Grid>
+        </Grid>
 
-    <div className='hadis'>
+        <Grid md={10} xs={11} item mt={3} className='hadis_11'> {/*Hadis-1 */}
+            <Grid container display='flex' alignItems='center' p={'1%'}>
+                <Grid xs={2} p={'1%'}>
+                    <Typography variant='h5'>Hadis Adı</Typography>
+                </Grid>
+                <Grid xs={10}p={'1%'}>
+                    <Typography variant='h5'>
+                    (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
+                    </Typography>
+                </Grid>
+            </Grid>
+        </Grid>
+
+    </Grid>
+
+   {/* <div className='hadis'>
         <div className='baslik'>
             <div className='container_hadis'>
                 <h1>
@@ -44,7 +80,8 @@ function Hadisler() {
             </div>
         </div>
     </div>
-
+  */}
+    </>
 
   )
 }

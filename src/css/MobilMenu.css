@@ -24,11 +24,12 @@
       margin: 1rem !important;
       background-color: bisque;
       border-radius: 1rem;
-      transition: 0.5s;
     }
-    .list .list-item:active  {
-      scale: 1.05;
-    }  
+    .yazii
+    {
+      font-size: 5rem !important;
+    }
+ 
 
 
   }

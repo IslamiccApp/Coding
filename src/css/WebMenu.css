@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Kalam&family=Poppins:wght@100;300;400;500;600&display=swap');
 html{
   font-size: 10px;
+  margin: 0;
 }
 
 body{
@@ -108,26 +109,24 @@ body{
 
 }
 
-
-.sayac{
-  height: 100px;
+.sayac
+{
   width: 100%;
-  margin: 4rem 0 0 0 ;
 }
+
 
 .sayac_ekran{
-  margin: auto;
-  width: 400px;
+  width: 100%;
   height: 100px;
   background-color: antiquewhite;
-  border-radius: 5rem;
-  display: absolute;
+  border-radius: 1rem;
+  /* display: absolute; */
 }
 
 
-.sayac img {
- position: absolute;
-  width: 450px;
+.sayac_ekran img {
+  position: absolute;
+   width: 50%;
   height: 130px;
   margin-top: -25px;
   margin-left: -25px;
@@ -135,11 +134,11 @@ body{
 
 }
 .sayac_ekran span {
-  position: absolute;
   font-size: 80px;
   display: inline-block;
-  width: 400px;
+  width: 100%;
   text-align: center;
+  /* position: absolute; */
 }
 
 .button{

@@ -16,6 +16,7 @@ import ImageSearchOutlinedIcon from '@mui/icons-material/ImageSearchOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import { Typography } from '@mui/material';
 
 function MobileMenu() {
   const [state, setState] = React.useState({
@@ -40,12 +41,14 @@ function MobileMenu() {
     >
       <List className='list'>
           <Link to='/'>
-          <ListItem   className='list-item' disablePadding>
+          <ListItem  className='list-item' disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <HomeOutlinedIcon/>
+                <HomeOutlinedIcon fontSize='large'/>
               </ListItemIcon>
-              <ListItemText>Ana Sayfa</ListItemText>
+              <ListItemText>
+                <Typography variant='h5' color='black'>Ana Sayfa</Typography>
+              </ListItemText>
             </ListItemButton>
           </ListItem>
           </Link>
@@ -55,22 +58,26 @@ function MobileMenu() {
           <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <ListAltOutlinedIcon/>
+                <ListAltOutlinedIcon fontSize='large'/>
               </ListItemIcon>
-              <ListItemText>Zikirlemir</ListItemText>
+              <ListItemText>
+                <Typography variant='h5' color='black'>Zikirlerim</Typography>
+                </ListItemText>
             </ListItemButton>
          </ListItem>
           </Link>
 
 
 
-         <Link to='/hadisler'>
+         <Link to='/hadisler' >
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton> 
               <ListItemIcon>
-                <DarkModeOutlinedIcon/>
+                <DarkModeOutlinedIcon fontSize='large'/>
               </ListItemIcon>
-              <ListItemText>Hadisler</ListItemText>
+              <ListItemText className='yazii'>
+              <Typography variant='h5' color='black'>Hadisler</Typography>
+                </ListItemText>
             </ListItemButton>
          </ListItem>
           </Link>
@@ -79,25 +86,31 @@ function MobileMenu() {
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <Brightness7OutlinedIcon/>
+                <Brightness7OutlinedIcon fontSize='large'/>
               </ListItemIcon>
-              <ListItemText>Esmaül Hüsna</ListItemText>
+              <ListItemText>
+              <Typography variant='h5' color='black'>Esmaül Hüsna</Typography>
+              </ListItemText>
             </ListItemButton>
          </ListItem>
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <ImageSearchOutlinedIcon/>
+                <ImageSearchOutlinedIcon fontSize='large'/>
               </ListItemIcon>
-              <ListItemText>Resmi Değiştir</ListItemText>
+              <ListItemText>
+              <Typography variant='h5' color='black'>Resmi Değiştir</Typography>
+              </ListItemText>
             </ListItemButton>
          </ListItem>
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <SettingsOutlinedIcon/>
+                <SettingsOutlinedIcon fontSize='large'/>
               </ListItemIcon>
-              <ListItemText>Ayarlar</ListItemText>
+              <ListItemText>
+              <Typography variant='h5' color='black'>Ayarlar</Typography>
+              </ListItemText>
             </ListItemButton>
          </ListItem>
       </List>
@@ -106,7 +119,13 @@ function MobileMenu() {
 
   return (
     <div>
-      <Box sx={{bgcolor:'#D9D9D9'}} className="arkaplan-mobil"><Button onClick={toggleDrawer('left', true)}><MenuIcon/></Button>Zikir App</Box>
+      <Box sx={{bgcolor:'#D9D9D9',p:1}} className="arkaplan-mobil">
+        <Box display='flex' alignItems='center'>
+          <Button onClick={toggleDrawer('left', true)} size='small'><MenuIcon fontSize='large'/></Button>
+        <Typography variant='h4'>Zikir App</Typography>
+        </Box>
+        
+        </Box>
       <Drawer
         anchor='left'
         open={state['left']}

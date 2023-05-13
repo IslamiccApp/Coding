@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=IBM+Plex+Mono:ital@1&family=Kalam&family=Poppins:wght@100;300;400;500;600&display=swap');
 
+
+.hadis_11
+{
+    background-color: #F0E3D8;
+    border-radius: 10px;
+}
+
+
 .hadis{
     align-content: center;
     justify-content: center;
