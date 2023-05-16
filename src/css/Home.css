@@ -107,7 +107,7 @@
     transition: 0.5s;
   }
   
-  .button button:active{
+  .button .tik:active{
     scale: 0.95;
   
     transition: 0.5s;
