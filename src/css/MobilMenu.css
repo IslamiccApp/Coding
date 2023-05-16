@@ -8,8 +8,13 @@
 
  
     body{
-      background-image: url(https://images.pexels.com/photos/15224039/pexels-photo-15224039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      background-image: url("../img/rsm-1.jpg");
+      background-repeat: no-repeat;
+      background-size: 150%;
+      background-attachment: fixed;
+      background-position: center 80%; 
     }
+
 
 
 
