@@ -5,7 +5,7 @@ html{
 }
 
 body{
-  background-image: url(https://images.alphacoders.com/253/253411.jpg);
+  background-image: url("../img/343678.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* resmi kapsamak için */
   background-attachment: fixed;
