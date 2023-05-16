@@ -27,22 +27,20 @@ function Home() {
         <Grid xl={10} sm={11} xs={12} className='gününhadisi_home'>
         <center><Typography variant='h2'  fontFamily={'kalam'}>Günün Hadisi</Typography></center>
         <Box>
-          <Typography variant='h5' className='gununhadisi_home_yazi'>
+          <Typography variant='h4' className='gununhadisi_home_yazi'>
           (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
           </Typography>
         </Box>
         </Grid>
       </Grid>
-      <Grid container row='true' sx={{display:'flex',justifyContent:'center'}}>
-        <Grid md={4} sm={5} xs={6} >
-        <div className='sayac'>
-        <div className='sayac_ekran'>
+      <div className='sayac'>
+      <div className='sayac_ekran'>
         <span> {count} </span>
-        {/* <img src={resim} alt="sayac_cerceve"/> */}
+
+
+          <img src={resim} alt="sayac_cerceve"/>
       </div>
       </div>
-        </Grid>
-      </Grid>
 
 
       <div className='button'>

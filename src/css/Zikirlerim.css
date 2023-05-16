@@ -89,21 +89,13 @@
 
 }
 
-.zikir_btn{
-    display: flex;
-    justify-content:  space-evenly;
-    align-items: center;
-    
 
 
-}
-
-
-.zikir_btn .btn{
+.zikir_skor_ve_butonlar .btn{
     background-color: transparent;
     border-radius: 8px;
     border: #6e6e6e  2px solid;
-    width: 15rem;
+    width: 10rem;
     font-size: 2rem;
     transition: 0.8s;
     text-align: center;
@@ -111,13 +103,10 @@
 }
 
 
-.zikir_btn .btn:hover{
+.zikir_skor_ve_butonlar .btn:hover{
     scale: 1.1;
-
     border: rgb(0, 118, 20) 1px solid;
     cursor: pointer;
-
-
 }
 
 

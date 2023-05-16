@@ -14,11 +14,11 @@ function Hadisler() {
         </Grid>
         <Grid md={10} xs={11} item mt={3} className='hadis_11'> {/*Hadis-1 */}
         <Grid container display='flex' alignItems='center' p={'1%'}>
-            <Grid xs={2} p={'1%'}>
-                <Typography variant='h5'>Hadis Adı</Typography>
+            <Grid xs={12} p={'1%'}>
+                <Typography variant='h4'>Hadis Adı</Typography>
             </Grid>
-            <Grid xs={10}p={'1%'}>
-                <Typography variant='h5'>
+            <Grid xs={12} p={'1%'}>
+                <Typography variant='h4'>
                 (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
                 </Typography>
             </Grid>
@@ -27,11 +27,11 @@ function Hadisler() {
 
         <Grid md={10} xs={11} item mt={3} className='hadis_11'> {/*Hadis-1 */}
             <Grid container display='flex' alignItems='center' p={'1%'}>
-                <Grid xs={2} p={'1%'}>
-                    <Typography variant='h5'>Hadis Adı</Typography>
+                <Grid xs={12} p={'1%'}>
+                    <Typography variant='h4'>Hadis Adı</Typography>
                 </Grid>
-                <Grid xs={10}p={'1%'}>
-                    <Typography variant='h5'>
+                <Grid xs={12} p={'1%'}>
+                    <Typography variant='h4'>
                     (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
                     </Typography>
                 </Grid>
