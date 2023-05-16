@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Kalam&family=Poppins:wght@100;300;400;500;600&display=swap');
 
+
+
+
+
 .gününhadisi_home
 {
     background-color: #e4d6ca ;
@@ -7,6 +11,7 @@
     padding: 3vh;
 
 }
+
 .gununhadisi_home_yazi
 {
     text-align: center;
@@ -51,7 +56,7 @@
   .sayac{
     height: 100px;
     width: 100%;
-    margin: 4rem 0 0 0 ;
+    margin: 10rem 0 0 0 ;
   }
   
   .sayac_ekran{
@@ -80,14 +85,14 @@
   }
   
   .button{
-    margin-top: 5rem;
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
     width: 100%;
   }
   
   
-  .button button{
+  .button .tik{
     background-color: transparent;
     width: 20rem;
     height: 20rem;
@@ -96,7 +101,7 @@
     transition: 0.5s;
   }
   
-  .button button:hover{
+  .button .tik:hover{
     scale: 1.05;
   
     transition: 0.5s;
@@ -124,7 +129,41 @@
     position: absolute;
   
   }
+  .resfres{
+    font-size: 3rem   !important;
+  }
+  .yenile{
+    background-color: rgb(227, 227, 227);
+    display: inline-block !important;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 30rem;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s;
+  }
   
+  .yenile:hover{
+    scale: 1.1;
+  }
+  .yenile:active{
+    scale: .90;
+  }
+
+  .kaydet{
+    font-size: 15pt;
+    color:#000000;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+
+  }
+
 
 
 
@@ -159,7 +198,7 @@
 
     }
 
-    .button button{
+    .button .tik{
       width: 15rem;
       height: 15rem;
     }
@@ -176,6 +215,18 @@
       height: 20.4rem;
       margin-top: -3.2rem;
       margin-left: -3.4rem;
+    }
+
+    .sayac{
+      margin: 4rem 0 0 0 ;
+    }
+
+    .button{
+      margin-top: 4rem;
+    }
+    .yenile
+    {
+      margin-left: 25rem;
     }
     
 

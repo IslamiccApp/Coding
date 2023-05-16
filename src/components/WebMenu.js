@@ -7,9 +7,12 @@ import Brightness7OutlinedIcon from '@mui/icons-material/Brightness7Outlined';
 import ImageSearchOutlinedIcon from '@mui/icons-material/ImageSearchOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import { Link } from 'react-router-dom';
+import "../css/WebMenu.css"
 
 function WebMenu() {
   return (
+    <>
+    <span className='back'> 
     <div className='webmenu-arkaplan'>
         <ul>
             <Link to='/'><li><HomeOutlinedIcon/>Ana Sayfa</li></Link>
@@ -22,6 +25,8 @@ function WebMenu() {
         </ul>
 
     </div>
+    </span>
+  </>
   )
 }
 

@@ -2,6 +2,7 @@ import React from 'react'
 import  '../css/Hadisler.css'
 import { Grid ,Typography } from '@mui/material'
 
+
 function Hadisler() {
   return (
     <>
