@@ -8,6 +8,10 @@ import Zikirlerim from './components/Zikirlerim';
 import Hadisler from './components/Hadisler';
 
 
+
+
+
+
 function App() {
   return (
     <div className="App">

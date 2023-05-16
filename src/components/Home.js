@@ -24,8 +24,8 @@ function Home() {
       </div>
       </div> */}
       <Grid container row='true' p={1} sx={{display:'flex',justifyContent:'center',marginTop:'2vh'}}>
-        <Grid xl={10} sm={11} xs={12} className='gününhadisi_home'>
-        <center><Typography variant='h2'  fontFamily={'kalam'}>Günün Hadisi</Typography></center>
+        <Grid xl={10} sm={11} xs={12} className='gününhadisi_home' >
+        <center><Typography variant='h2'  fontFamily={'kalam'} className='home_type'>Günün Hadisi</Typography></center>
         <Box>
           <Typography variant='h4' className='gununhadisi_home_yazi'>
           (Allah Rasûlü) “Din nasihattır/samimiyettir” buyurdu. “Kime Yâ Rasûlallah?” diye sorduk. O da; “Allah’a, Kitabına, Peygamberine, Müslümanların yöneticilerine ve bütün müslümanlara” diye cevap verdi. (Müslim, İmân, 95.)
