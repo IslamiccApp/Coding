@@ -2,8 +2,15 @@ import React from 'react'
 import '../css/Zikirlerim.css'
 import { Grid, Typography } from '@mui/material'
 import HadislerJson from '../json/HadislerJson'
+import { Link } from 'react-router-dom'
 
-function Zikirlerim() {
+function Zikirlerim({zikirCountDizi,setzikirCountDizi}) {
+    const resetZikir=(index)=>{
+        setzikirCountDizi([...zikirCountDizi.slice(0, index), 0, ...zikirCountDizi.slice(index + 1)]);
+
+
+
+    }
   return (
     <>
     <Grid container row='true' sx={{display:'flex',justifyContent:'center'}}>
@@ -13,29 +20,29 @@ function Zikirlerim() {
                 <hr/>
             </Typography>
         </Grid>
-        {
+        {       
             HadislerJson.map((item,index)=>(
-                <Grid  md={10} xs={11} item className='zikirlerim_zikir_1'> {/* zikir1 */}
+                <Grid  md={10} xs={11} item className='zikirlerim_zikir_1' key={index}> {/* zikir1 */}
             <Grid container>
-                <Grid xs={12} p={'1%'}>
+                <Grid xs={12} p={'1%'} item>
                 <Typography variant='h4'>{item.hadisName}</Typography>
                 </Grid>
-                <Grid xs={12} p={'1%'}>
+                <Grid xs={12} p={'1%'} item>
                 <Typography variant='h4' className='zikir_yazi'> {item.hadisMean} </Typography>
                 </Grid>
             </Grid>
-            <Grid md={6} sm={9} xs={11} p={'1%'}>
+            <Grid md={6} sm={9} xs={11} p={'1%'} item>
             <div className='zikir_skor_ve_butonlar'>
-                <Typography variant='h5' mr={2}>Son Zikir: </Typography>
+                <Typography variant='h5' mr={2}>Son Zikir:{zikirCountDizi[index]} </Typography>
                 <div>
-               <button className='buton_devamet btn'>Devat Et</button>
-               <button className='buton_sil btn'>Sil</button>
-               </div>
+               <Link to='/' state={{name:item.hadisName,index:index}}><button className='buton_devamet btn'>Devat Et</button></Link>
+                <button className='buton_sil btn' onClick={()=>resetZikir(index)}>Sıfırla</button>
+                </div>
             </div></Grid>
         </Grid>
             )
         )
-    }
+        }
         
     </Grid>
     </>

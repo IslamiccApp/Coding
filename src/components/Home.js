@@ -6,20 +6,34 @@ import { Grid ,Typography,Box} from '@mui/material'
 import '../css/Home.css'
 import { IoIosRefresh } from "react-icons/io";
 import '../css/WebMenu.css'
+import { toast } from 'react-toastify'
+import { useLocation } from 'react-router'
 
 
 
 
-function Home() {
-  const [count, setCount] = useState(JSON.parse(localStorage.getItem('count'))  || 0);
+
+function Home({setzikirCountDizi,zikirCountDizi}) {
+  const location =useLocation().state
+  const [count, setCount] = useState(zikirCountDizi[location?.index]||0);
 
   const saveCount = () => {
-    localStorage.setItem('count', count);
+    toast.success("Başarıyla kaydedildi")
+    if(location)
+    {
+      setzikirCountDizi([...zikirCountDizi.slice(0, location.index), count, ...zikirCountDizi.slice(location.index + 1)]);
+
+    }
+
   }
 
   const resetCount = () => {
     setCount(0)
-    localStorage.removeItem('count');
+    if(location)
+    {
+      setzikirCountDizi([...zikirCountDizi.slice(0, location.index), 0, ...zikirCountDizi.slice(location.index + 1)]);
+    }
+    
   }
  
   return (
@@ -27,7 +41,7 @@ function Home() {
     <div className='backgroun_img'>
 
       <Grid container row='true' p={1} sx={{display:'flex',justifyContent:'center',marginTop:'2vh'}}>
-        <Grid xl={10} sm={11} xs={12} className='gününhadisi_home' >
+        <Grid xl={10} sm={11} xs={12} className='gününhadisi_home' item >
         <center><Typography variant='h2'  fontFamily={'kalam'} className='home_type'>Günün Hadisi</Typography></center>
         <Box>
           <Typography variant='h4' className='gununhadisi_home_yazi'>
@@ -36,7 +50,8 @@ function Home() {
         </Box>
         </Grid>
       </Grid>
-
+<h1>{location?.name}</h1>
+<h2>son kaydedilen zikir : {zikirCountDizi[location?.index]}</h2>
 
       <div className='sayac'>
 
