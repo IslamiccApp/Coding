@@ -9,7 +9,6 @@
 .zikir_skor_ve_butonlar
 {
     display: flex;
-    justify-content:space-between;
 }
 
 .buton_devamet
@@ -68,6 +67,7 @@
 .zikir_1:hover {
     background-color: #e1d5c9;
 }
+
 .zikir_anlami{
     display: flex;
 }
@@ -93,9 +93,8 @@
 
 .zikir_skor_ve_butonlar .btn{
     background-color: transparent;
-    border-radius: 8px;
-    border: #6e6e6e  2px solid;
-    width: 10rem;
+    border-radius: 5px;
+    border: #6e6e6e  1px solid;
     font-size: 2rem;
     transition: 0.8s;
     text-align: center;
@@ -116,6 +115,30 @@
     max-width: 20rem;
 }
 
+
+@media only screen and (max-width: 480px){ /* 480 px in altındaki tüm pikseller için geçerli css */
+    .zikir_yazi{
+        font-size: 1.4rem !important;
+    }
+
+    .btn{
+        font-size: 1.4rem !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 700px) and (min-width:480px) { /* iki piksel aralığındaki piksellere css vermek için */
+
+    .zikir_yazi{
+        font-size: 1.7rem !important;
+    }
+
+    .btn{
+        font-size: 1.7rem !important;
+    }
+
+}
 
 
 

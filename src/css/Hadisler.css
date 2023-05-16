@@ -39,6 +39,13 @@
     border-radius: 30px;
 }
 
+@media only screen and (max-width: 480px){ /* 480 px in altındaki tüm pikseller için geçerli css */
+    .zikir_yazi{
+        font-size: 1.4rem !important;
+    }
+    
+}
+
 
 
 
