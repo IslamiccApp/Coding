@@ -103,6 +103,13 @@ const HadislerJson=[
     hadisMean:` "Ey Allah." Allah'a doğrudan seslenen bir ifadedir.`,
     Count:'',
     id:"14"
-   }   
+   }  
+   ,
+   {
+    hadisName:'',
+    hadisMean:` `,
+    Count:'',
+    id:""
+   }    
 ]
 export default HadislerJson;
