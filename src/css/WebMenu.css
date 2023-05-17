@@ -5,12 +5,13 @@ html{
 }
 
 body{
-  background-image: url("../img/343678.jpg");
+  background-image: url("../img/ayasof.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* resmi kapsamak için */
   background-attachment: fixed;
   background-position: center;
   margin-bottom: 50px;
+  /* backdrop-filter: blur(2px) brightness(0.9); */
 }
 
 .webmenu-arkaplan

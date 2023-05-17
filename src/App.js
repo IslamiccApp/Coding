@@ -13,9 +13,6 @@ import Esma from './components/Esma';
 
 
 
-
-
-
 function App() {
   const [zikirCountDizi,setzikirCountDizi] = useState(JSON.parse(localStorage.getItem('CountDizi'))|| [])  
 
