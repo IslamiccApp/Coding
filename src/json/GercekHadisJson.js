@@ -202,23 +202,7 @@ const gercekHadisJson = [
   {
     "name": `قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: "إِنَّ اللَّهَ يُحِبُّ إِذَا عَمِلَ أَحَدُكُمْ عَمَلاً أَنْ يُتْقِنَهُ".`,
     "meal": `"Peygamber (s.a.v.) şöyle buyurdu: 'Allah, sizden birinin bir iş yaparsa onu iyi bir şekilde yapmasını sever.'" (Tirmizi)`
-  }
-  ,
-  {
-    "name":"",
-    "meal":""
-  }
-  ,
-  {
-    "name":"",
-    "meal":""
-  }
-  ,
-  {
-    "name":"",
-    "meal":""
-  }
-  
+  }  
   ]
   export default gercekHadisJson
   

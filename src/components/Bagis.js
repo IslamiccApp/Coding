@@ -11,13 +11,6 @@ const Bagis = () => {
         <Grid container display='flex' alignItems='center' p={'1%'}>
             <Grid xs={12} p={'1%'} item>
                 <Typography variant='h4'>
-
-                
-
-
-
-
-
                 </Typography>
             </Grid>
             <Grid xs={12} p={'1%'} item>
