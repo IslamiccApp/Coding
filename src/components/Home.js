@@ -50,12 +50,15 @@ function Home({setzikirCountDizi,zikirCountDizi}) {
         </Box>
         </Grid>
       </Grid>
-<h1>{location?.name}</h1>
-<h2>son kaydedilen zikir : {zikirCountDizi[location?.index]}</h2>
-
+ <center>     
+  <div className='contain_son_zikir'> 
+    <span className='home_son_zikir'>
+      <div className='zikir_ismi' >{location?.name}</div>
+      <div className='zikir_sayi' >son kaydedilen zikir : {zikirCountDizi[location?.index]}</div>
+    </span>
+  </div>
+</center>
       <div className='sayac'>
-
-    
       <div className='sayac_ekran'>
         <span> {count} </span>
 

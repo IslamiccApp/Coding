@@ -18,7 +18,7 @@ function WebMenu() {
             <Link to='/'><li><HomeOutlinedIcon/>Ana Sayfa</li></Link>
             <Link to='/zikirlerim'><li><ListAltOutlinedIcon/>Zikirler</li></Link>
             <Link to='/hadisler'><li><DarkModeOutlinedIcon/>Hadisler</li></Link>
-            <Link to='/'><li><Brightness7OutlinedIcon/>Esmaül Hüsna</li></Link>
+            <Link to='/esma-ül-hüsna'><li><Brightness7OutlinedIcon/>Esmaül Hüsna</li></Link>
             <Link to='/'><li><ImageSearchOutlinedIcon/>Resmi Düzenle</li></Link>
             <Link to='/'><li><SettingsOutlinedIcon/>Ayarlar</li></Link>
 

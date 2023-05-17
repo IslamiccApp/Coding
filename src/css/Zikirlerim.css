@@ -52,19 +52,8 @@
     border-radius: 30px;
 }
 
-.zikir_1 {
-    background-color: #F0E3D8;
-    width: 100%;
-    padding: 2rem;
-    font-size: 2.5rem;
-    border-radius: 20px;
-    margin: 20px;
-    transition: 0.8s;
-    position: relative;
-}
 
-
-.zikir_1:hover {
+.zikirlerim_zikir_1:hover {
     background-color: #e1d5c9;
 }
 

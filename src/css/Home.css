@@ -56,7 +56,7 @@
   .sayac{
     height: 100px;
     width: 100%;
-    margin: 10rem 0 0 0 ;
+    margin: 4rem 0 0 0 ;
   }
   
   .sayac_ekran{
@@ -161,8 +161,25 @@
     padding: 10px;
     border-radius: 40px;
     cursor: pointer;
+}
+  .home_son_zikir{
+    background-color: #e4d6ca;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 1rem;
 
   }
+
+  .zikir_ismi{
+    font-size: 2rem;
+  }
+
+  .zikir_sayi{
+    font-size: 2rem;
+  }
+
+
 
 
 
@@ -228,6 +245,16 @@
     {
       margin-left: 25rem;
     }
+
+
+   .zikir_ismi{
+      font-size: 1.5rem;
+    }
+  
+    .zikir_sayi{
+      font-size: 1.5rem;
+    }
+  
     
 
 
