@@ -15,12 +15,14 @@ import Esma from './components/Esma';
 
 function App() {
   const [zikirCountDizi,setzikirCountDizi] = useState(JSON.parse(localStorage.getItem('CountDizi'))|| [])  
+   
 
+  
   
   console.log(zikirCountDizi); // Oluşturulan dizi
   
   useEffect(()=>{
-    if (zikirCountDizi.length === 0) {
+    if (zikirCountDizi.length === 0){
       setzikirCountDizi(Array(HadislerJson.length).fill(0))
     }
     localStorage.setItem('CountDizi',JSON.stringify(zikirCountDizi))
