@@ -104,12 +104,6 @@ const HadislerJson=[
     Count:'',
     id:"14"
    }  
-   ,
-   {
-    hadisName:'',
-    hadisMean:` `,
-    Count:'',
-    id:""
-   }    
+   
 ]
 export default HadislerJson;
