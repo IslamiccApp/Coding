@@ -38,7 +38,7 @@ function Hadisler() {
 
         </Grid>
      
-        <a href="#">
+        <a href='#'>
   <ExpandLessIcon className='down' />
     </a>
    

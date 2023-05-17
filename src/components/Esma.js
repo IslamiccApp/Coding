@@ -2,6 +2,7 @@ import React from 'react'
 import { Grid, Typography } from '@mui/material'
 import '../css/Esma.css'
 import EsmaJson from '../json/EsmaJson'
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 
 const esma = () => {
@@ -35,6 +36,9 @@ const esma = () => {
                 </Grid>
             
     </Grid>
+    <a href='#'>
+  <ExpandLessIcon className='down' />
+    </a>
     </div>
 
     

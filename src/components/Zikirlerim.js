@@ -3,6 +3,7 @@ import '../css/Zikirlerim.css'
 import { Grid, Typography } from '@mui/material'
 import HadislerJson from '../json/HadislerJson'
 import { Link } from 'react-router-dom'
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 function Zikirlerim({zikirCountDizi,setzikirCountDizi}) {
     const resetZikir=(index)=>{
@@ -45,6 +46,10 @@ function Zikirlerim({zikirCountDizi,setzikirCountDizi}) {
         }
         
     </Grid>
+        
+    <a href='#'>
+  <ExpandLessIcon className='down' />
+    </a>
     </>
   )
 }
