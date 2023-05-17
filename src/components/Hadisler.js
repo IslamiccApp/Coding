@@ -2,6 +2,7 @@ import React from 'react'
 import  '../css/Hadisler.css'
 import { Grid ,Typography } from '@mui/material'
 import GercekHadislerJson from '../json/GercekHadisJson.js'
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 
 function Hadisler() {
@@ -34,9 +35,12 @@ function Hadisler() {
       
       )) }
 
+
         </Grid>
      
-   
+        <a href="#">
+  <ExpandLessIcon className='down' />
+    </a>
    
 
     </>

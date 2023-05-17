@@ -39,6 +39,25 @@
     border-radius: 30px;
 }
 
+
+
+.down{
+    font-size: 8rem !important;
+    color: aliceblue;
+    right: 1rem;
+    bottom: 1rem;
+    position: fixed;
+    transition: 1s;
+
+
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 480px){ /* 480 px in altındaki tüm pikseller için geçerli css */
     .zikir_yazi{
         font-size: 1.4rem !important;
