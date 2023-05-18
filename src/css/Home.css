@@ -89,7 +89,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-
+    cursor: pointer;
   }
   
   
@@ -100,11 +100,11 @@
     border-radius: 50rem;
     background-color: #00cd1f38;
     transition: 0.5s;
+    cursor: pointer;
   }
   
   .button .tik:hover{
     scale: 1.05;
-  
     transition: 0.5s;
   }
   
@@ -189,7 +189,7 @@
   @media only screen and (max-width: 576px) and (min-width:480px) { /* iki piksel aralığındaki piksellere css vermek için */
 
   }
-  @media only screen and (max-width: 480px){ /* 480 px in altındaki tüm pikseller için geçerli css */
+  @media only screen and (max-width: 500px){ /* 480 px in altındaki tüm pikseller için geçerli css */
     .home_type{
       font-size: 2.5rem !important;
     }
@@ -240,7 +240,7 @@
     }
 
     .button{
-      margin-top: 4rem;
+      margin-top: 3rem;
     }
     .yenile
     {

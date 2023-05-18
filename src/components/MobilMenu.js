@@ -32,6 +32,7 @@ function MobileMenu() {
     setState({ ...state, [anchor]: open });
   };
   
+  
   const list = (anchor) => (
     <Box 
     className='arkaplan-mobil'

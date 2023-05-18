@@ -18,13 +18,17 @@ import MobilResimDegistir from './components/MobilResimDegistir';
 
 function App() {
   const [zikirCountDizi,setzikirCountDizi] = useState(JSON.parse(localStorage.getItem('CountDizi'))|| [])  
+  useEffect(()=>{
+    if(!localStorage.getItem("resim"))
+    {
+      localStorage.setItem("resim","https://images.alphacoders.com/925/925790.jpg")
+    }
+  },[])
 
   const abc = localStorage.getItem('resim')
   document.body.style.backgroundImage = `url(${abc})`;
 
   
-  
-  console.log(zikirCountDizi); // Oluşturulan dizi
   
   useEffect(()=>{
     if (zikirCountDizi.length === 0){

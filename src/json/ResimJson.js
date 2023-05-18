@@ -6,10 +6,7 @@ const ResimJson=[
     {
         resim:'https://images2.alphacoders.com/546/546575.jpg'
     }   
-    ,
-    {
-        resim:'https://images6.alphacoders.com/396/396884.jpg'
-    }   
+ 
     ,
     {
         resim:'https://images6.alphacoders.com/522/522976.jpg'

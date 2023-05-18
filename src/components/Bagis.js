@@ -31,9 +31,9 @@ const Bagis = () => {
         
                 <Typography variant='h4'  className='zikir_yazi'>
                 &nbsp;&nbsp;
-                {/* <p>Erkan KOLAKAN</p>
+                <p>Erkan KOLAKAN</p>
                 <p className='ibantxt'>IBAN: </p>
-                <p  className='ibanno'>TR27 0001 0008 2796 0263 3550 01</p> */}
+                <p  className='ibanno'>TR27 0001 0008 2796 0263 3550 01</p>
                 
                 </Typography>
             </Grid>
