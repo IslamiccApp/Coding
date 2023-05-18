@@ -95,7 +95,7 @@ function MobileMenu() {
             </ListItemButton>
          </ListItem>
          </Link >
-         <Link to="/resimdegistir">
+         <Link to="/mobilmenudegistir">
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>

@@ -12,12 +12,15 @@ import 'react-toastify/dist/ReactToastify.css';
 import Esma from './components/Esma';
 import Bagis from './components/Bagis';
 import ResimDegistir from './components/ResimDegistir';
+import MobilResimDegistir from './components/MobilResimDegistir';
 
 
 
 function App() {
   const [zikirCountDizi,setzikirCountDizi] = useState(JSON.parse(localStorage.getItem('CountDizi'))|| [])  
-   
+
+  const abc = localStorage.getItem('resim')
+  document.body.style.backgroundImage = `url(${abc})`;
 
   
   
@@ -41,7 +44,8 @@ function App() {
           <Route path="/zikirlerim" element={<Zikirlerim zikirCountDizi={zikirCountDizi} setzikirCountDizi={setzikirCountDizi}/>}/>
           <Route path="/hadisler" element={<Hadisler />}/>
           <Route path="/esma-ül-hüsna" element={<Esma />}/>
-          <Route path="/resimdegistir" element={<ResimDegistir />}/>
+          <Route path="/resmidegistir" element={<ResimDegistir />}/>
+          <Route path="/mobilmenudegistir" element={<MobilResimDegistir />}/>
           <Route path="/bagis" element={<Bagis/>}/>
       </Routes>
     </div>

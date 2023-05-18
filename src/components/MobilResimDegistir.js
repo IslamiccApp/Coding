@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import '../css/ResimDegistir.css'
 import {Grid} from '@mui/material'
-import ResimJson from '../json/ResimJson'
+import Json from '../json/MobilResimDegistirJson'
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 
 
 
 
-const ResimDegistir = () => {
+const MobilResimDegistir = () => {
 
 
 
@@ -16,15 +16,12 @@ const ResimDegistir = () => {
         localStorage.setItem('resim',abc)
     }
 
-    
 
-
-    console.log(ResimJson);
   return (
     <div>
         <Grid  container  p={5} spacing={3} display={'flex'} justifyContent={'center'} >
             {
-                ResimJson.map((item,index)=>(
+                Json.map((item,index)=>(
                     <Grid item xl={3} md={4} xs={11} p={2} borderRadius={5} m={1} bgcolor={"#e4d6ca"}>
                 <div className='container_degistir'> 
                     <div className='degistir'>
@@ -44,4 +41,5 @@ const ResimDegistir = () => {
   )
 }
 
-export default ResimDegistir
+
+export default MobilResimDegistir
