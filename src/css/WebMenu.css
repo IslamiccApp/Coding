@@ -47,6 +47,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   transition: 0.5s;
   cursor: pointer;
+  color: rgb(66, 87, 62);
 }
 
 .webmenu-arkaplan ul li:hover{

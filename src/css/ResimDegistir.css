@@ -1,0 +1,33 @@
+
+
+
+.degistir img {
+    background-size: cover;
+    width: 98%;
+    transition: 0.8s;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.degistir img:hover {
+    transform: scale(1.02);
+}
+
+
+.degistir_btn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(48, 4, 79);
+    border-radius: 5px;
+    border: 1px solid rgb(127, 0, 143);
+    font-size: 20px;
+    padding: .5rem 1rem .5rem 1rem;
+    transition: 0.8s;
+    color: aliceblue;
+}
+
+.degistir_btn:hover{
+    background-color: #5e028c;
+    
+
+}

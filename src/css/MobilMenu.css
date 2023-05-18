@@ -8,12 +8,11 @@
 
  
     body{
-      background-image: url("../img/ayasofya.jpg");
+      background-image: url("../img/ayasofya.jpg") !important  ;
       background-repeat: no-repeat;
-      background-size: 150%;
+      background-size: 150% ;
       background-attachment: fixed;
       background-position: center 80%; 
-
     }
 
 
@@ -30,6 +29,7 @@
       margin: 1rem !important;
       background-color: bisque;
       border-radius: 1rem;
+      
     }
     .yazii
     {

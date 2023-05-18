@@ -11,6 +11,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Esma from './components/Esma';
 import Bagis from './components/Bagis';
+import ResimDegistir from './components/ResimDegistir';
 
 
 
@@ -31,7 +32,7 @@ function App() {
   },[zikirCountDizi])
   return (
     <>
-    <div className="App">
+    <div className="App" >
       
       <WebMenu/>
       <MobileMenu/>
@@ -40,6 +41,7 @@ function App() {
           <Route path="/zikirlerim" element={<Zikirlerim zikirCountDizi={zikirCountDizi} setzikirCountDizi={setzikirCountDizi}/>}/>
           <Route path="/hadisler" element={<Hadisler />}/>
           <Route path="/esma-ül-hüsna" element={<Esma />}/>
+          <Route path="/resimdegistir" element={<ResimDegistir />}/>
           <Route path="/bagis" element={<Bagis/>}/>
       </Routes>
     </div>

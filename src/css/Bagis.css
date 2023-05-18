@@ -1,0 +1,26 @@
+.ibantxt{
+    margin-top: 10px;
+    display: inline-block;
+}
+.ibanno{
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+.yardim_img{
+    background-image: url("../img/bagis.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center center; 
+    margin-bottom: 5px;
+}
+
+.bagis{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

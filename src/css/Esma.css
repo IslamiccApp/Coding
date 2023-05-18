@@ -1,0 +1,10 @@
+
+
+@media only screen and (max-width: 900px){ /* 480 px in altındaki tüm pikseller için geçerli css */
+
+    .hadis_11
+    {
+        margin-right: 0 !important;
+    }
+    
+}

@@ -17,6 +17,7 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
+import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
 
 function MobileMenu() {
   const [state, setState] = React.useState({
@@ -47,7 +48,7 @@ function MobileMenu() {
                 <HomeOutlinedIcon fontSize='large'/>
               </ListItemIcon>
               <ListItemText>
-                <Typography variant='h5' color='black'>Ana Sayfa</Typography>
+                <Typography variant='h5'color=' rgb(66, 87, 62)'>Ana Sayfa</Typography>
               </ListItemText>
             </ListItemButton>
           </ListItem>
@@ -61,7 +62,7 @@ function MobileMenu() {
                 <ListAltOutlinedIcon fontSize='large'/>
               </ListItemIcon>
               <ListItemText>
-                <Typography variant='h5' color='black'>Zikirlerim</Typography>
+                <Typography variant='h5'color=' rgb(66, 87, 62)'>Zikirlerim</Typography>
                 </ListItemText>
             </ListItemButton>
          </ListItem>
@@ -76,7 +77,7 @@ function MobileMenu() {
                 <DarkModeOutlinedIcon fontSize='large'/>
               </ListItemIcon>
               <ListItemText className='yazii'>
-              <Typography variant='h5' color='black'>Hadisler</Typography>
+              <Typography variant='h5' color=' rgb(66, 87, 62)'>Hadisler</Typography>
                 </ListItemText>
             </ListItemButton>
          </ListItem>
@@ -89,32 +90,35 @@ function MobileMenu() {
                 <Brightness7OutlinedIcon fontSize='large'/>
               </ListItemIcon>
               <ListItemText>
-              <Typography variant='h5' color='black'>Esmaül Hüsna</Typography>
+              <Typography variant='h5'color=' rgb(66, 87, 62)'>Esmaül Hüsna</Typography>
               </ListItemText>
             </ListItemButton>
          </ListItem>
          </Link >
-
+         <Link to="/resimdegistir">
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
                 <ImageSearchOutlinedIcon fontSize='large'/>
               </ListItemIcon>
               <ListItemText>
-              <Typography variant='h5' color='black'>Resmi Değiştir</Typography>
+              <Typography variant='h5' color=' rgb(66, 87, 62)'>Resmi Değiştir</Typography>
               </ListItemText>
             </ListItemButton>
          </ListItem>
+         </Link> 
+        <Link to="/bagis">
          <ListItem  className='list-item'  disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <SettingsOutlinedIcon fontSize='large'/>
+                <VolunteerActivismOutlinedIcon fontSize='large'/>
               </ListItemIcon>
               <ListItemText>
-              <Typography variant='h5' color='black'>Ayarlar</Typography>
+              <Typography variant='h5' color=' rgb(66, 87, 62)'>Bağış ve Yardım</Typography>
               </ListItemText>
             </ListItemButton>
          </ListItem>
+        </Link>
       </List>
     </Box>
   );
