@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../css/ResimDegistir.css'
 import {Grid} from '@mui/material'
 import Json from '../json/MobilResimDegistirJson'
@@ -34,7 +34,7 @@ const MobilResimDegistir = () => {
             }
            
         </Grid>
-        <a href='#'>
+        <a href='/#'>
   <ExpandLessIcon className='down' />
     </a>
     </div>

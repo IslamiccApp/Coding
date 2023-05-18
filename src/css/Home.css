@@ -98,9 +98,9 @@
     width: 20rem;
     height: 20rem;
     border-radius: 50rem;
-    background-color: #00cd1f38;
     transition: 0.5s;
     cursor: pointer;
+    border: 0;
   }
   
   .button .tik:hover{

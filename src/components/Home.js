@@ -1,6 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import resim from '../img/sayac_cerceve.png'
-import cerceve from '../img/button_cerceve.png'
+import cerceve from '../img/abcd.png'
 import el from '../img/zikir_el.png'
 import { Grid ,Typography,Box} from '@mui/material'
 import '../css/Home.css'
@@ -14,7 +14,9 @@ import GününHadisi from '../json/GününHadisiJson'
 
 
 
+
 function Home({setzikirCountDizi,zikirCountDizi}) {
+  
   const location =useLocation().state
   const [count, setCount] = useState(zikirCountDizi[location?.index]||0);
 

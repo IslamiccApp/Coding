@@ -72,15 +72,7 @@ const ResimJson=[
     {
         resim:'https://images6.alphacoders.com/773/773196.jpg'
     }   
-    ,
-    {
-        resim:'https://images.alphacoders.com/102/1022817.png'
-    }
-    ,
-    {
-        resim:'https://images3.alphacoders.com/102/1022749.png'
-    }      
-    
+
 
 
 
