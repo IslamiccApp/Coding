@@ -23,10 +23,11 @@ function App() {
     {
       localStorage.setItem("resim","https://images.alphacoders.com/925/925790.jpg")
     }
+    const abc = localStorage.getItem('resim')
+    document.body.style.backgroundImage = `url(${abc})`;
   },[])
 
-  const abc = localStorage.getItem('resim')
-  document.body.style.backgroundImage = `url(${abc})`;
+  
 
   
   
