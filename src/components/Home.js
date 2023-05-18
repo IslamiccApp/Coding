@@ -107,13 +107,13 @@ useEffect(()=>{
           <img src={cerceve} alt='btn_cerceve' />
           <img className='el' src={el} alt='zikir çeken el' />
         </button>
-      <span className='yenile' onClick={resetCount}> {/*<CachedIcon className='resfres'/>*/} 
+      <span className='yenile' onClick={resetCount}>
       <IoIosRefresh className='resfres'/>
       </span>
       </div>
     </div>
 
-    <span className='kaydet' onClick={saveCount}>Kaydet</span>
+    <button className='kaydet' onClick={saveCount}>Kaydet</button>
 
     
 

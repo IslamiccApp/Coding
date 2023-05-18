@@ -126,7 +126,7 @@ function MobileMenu() {
 
   return (
     <div>
-      <Box sx={{bgcolor:'#D9D9D9',p:1}} className="arkaplan-mobil">
+      <Box sx={{bgcolor:'#D9D9D9',p:1}} className="arkaplan-mobil" position='sticky'>
         <Box display='flex' alignItems='center'>
           <Button onClick={toggleDrawer('left', true)} size='small'><MenuIcon fontSize='large'/></Button>
         <Typography variant='h4'>Zikir App</Typography>

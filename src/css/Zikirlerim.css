@@ -20,6 +20,7 @@
     transition: 0.8s;
     text-align: center;
     margin-right: 20px;
+    /* cursor: pointer; */
 }
 .buton_sil
 {
@@ -29,7 +30,7 @@
     font-size: 15px;
     transition: 0.8s;
     text-align: center;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 
@@ -94,7 +95,6 @@
 .zikir_skor_ve_butonlar .btn:hover{
     scale: 1.1;
     border: rgb(0, 118, 20) 1px solid;
-    cursor: pointer;
 }
 
 
