@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../css/ResimDegistir.css'
 import {Grid} from '@mui/material'
 import ResimJson from '../json/ResimJson'

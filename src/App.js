@@ -18,24 +18,21 @@ import MobilResimDegistir from './components/MobilResimDegistir';
 
 function App() {
   const [zikirCountDizi,setzikirCountDizi] = useState(JSON.parse(localStorage.getItem('CountDizi'))|| [])  
+  
   useEffect(()=>{
-    if(!localStorage.getItem("resim"))
+    if(!localStorage.getItem("resim")) // localstorage de resim yoksa bir tane default arkaplan ayarladık
     {
       localStorage.setItem("resim","https://images.alphacoders.com/925/925790.jpg")
     }
-    const abc = localStorage.getItem('resim')
-    document.body.style.backgroundImage = `url(${abc})`;
+    const abc = localStorage.getItem('resim') // localstoragedeki resim linkini aldık ve arkaplan olarak ayarladık
+    document.body.style.backgroundImage = `url(${abc})`; 
   },[])
 
-  
-
-  
-  
   useEffect(()=>{
-    if (zikirCountDizi.length === 0){
+    if (zikirCountDizi.length === 0){ // dizi boş ise içini 0'lar ile doldurduk
       setzikirCountDizi(Array(HadislerJson.length).fill(0))
     }
-    localStorage.setItem('CountDizi',JSON.stringify(zikirCountDizi))
+    localStorage.setItem('CountDizi',JSON.stringify(zikirCountDizi)) // diziyi locale yazdırdık
     
   },[zikirCountDizi])
   return (

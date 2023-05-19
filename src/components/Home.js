@@ -6,7 +6,6 @@ import { Grid ,Typography,Box} from '@mui/material'
 import '../css/Home.css'
 import { IoIosRefresh } from "react-icons/io";
 import '../css/WebMenu.css'
-import { toast } from 'react-toastify'
 import { useLocation } from 'react-router'
 import GününHadisi from '../json/GününHadisiJson'
 
@@ -18,56 +17,103 @@ import GününHadisi from '../json/GününHadisiJson'
 function Home({setzikirCountDizi,zikirCountDizi}) {
   
   const location =useLocation().state
-  const [count, setCount] = useState(zikirCountDizi[location?.index]||0);
+  const [count, setCount] = useState();
 
-  const saveCount = () => {
+
+  useState(()=>{
+    if(location)
+    {
+      setCount(zikirCountDizi[location?.index]) // tıkladığımız zikrin dizideki sırasını alıp içeriğine gittik
+    }
+    else
+    {
+      const countDizi = JSON.parse(localStorage.getItem("CountDizi"));
+      const value = countDizi && countDizi[0] !== undefined ? countDizi[0] : 0; // daha önceden localstorage de yoksa ve null değer dönüyorsa ekrana 0 yazdık
+      setCount(value);
+    }
+  },[location])
+
+  const ClickButton = () => { // her butona tıklandığı zaman zikircountdizi yi günceller ve localstorage yazılması için gönderir
+    if (location) {
+      setCount(prevCount => {
+        const updatedCount = prevCount + 1;
+        setzikirCountDizi([
+          ...zikirCountDizi.slice(0, location.index),
+          updatedCount,
+          ...zikirCountDizi.slice(location.index + 1)
+        ]);
+        return updatedCount;
+      });
+    } else {
+      setCount(prevCount => {
+        const updatedCount = prevCount + 1;
+        setzikirCountDizi([
+          ...zikirCountDizi.slice(0, 0),
+          updatedCount,
+          ...zikirCountDizi.slice(0 + 1)
+        ]);
+        return updatedCount;
+      });
+    }
+  };
+  
+
+/*   const saveCount = () => {
     toast.success("Başarıyla kaydedildi")
     if(location)
     {
       setzikirCountDizi([...zikirCountDizi.slice(0, location.index), count, ...zikirCountDizi.slice(location.index + 1)]);
 
     }
+    else
+    {
+      setzikirCountDizi([...zikirCountDizi.slice(0, 0), count, ...zikirCountDizi.slice(0 + 1)]);
+    }
 
-  }
+  } */
 
-  const resetCount = () => {
+  const resetCount = () => { // tıkladığımız elemanı localstoragedeki diziden sıfırlar
     setCount(0)
     if(location)
     {
       setzikirCountDizi([...zikirCountDizi.slice(0, location.index), 0, ...zikirCountDizi.slice(location.index + 1)]);
     }
-    
-  }
-  var tarih= new Date(); 
-var gun = tarih.getDay(); // var olan günü aldık 1 == pazatesi , 7 == pazar
-const [günHadis,setgünHadis]=useState() 
-useEffect(()=>{
-  if(gun===1)
-  {
-    setgünHadis(GününHadisi[0].pazartesi)
-  }
-  if(gun===2)
-  {
-    setgünHadis(GününHadisi[0].sali)
-  }
-  if(gun===3){
-    setgünHadis(GününHadisi[0].carsamba)
-  }
-  if(gun===4){
-    setgünHadis(GününHadisi[0].persembe)
-  }
-  if(gun===5){
-    setgünHadis(GününHadisi[0].cuma)
-  }
-  if(gun===6)
-  {
-    setgünHadis(GününHadisi[0].cumartesi)
-  }
-  if(gun===7)
-  {
-    setgünHadis(GününHadisi[0].pazar)
-  }
-},[gun])
+    else
+    {
+      setzikirCountDizi([...zikirCountDizi.slice(0, 0), 0, ...zikirCountDizi.slice(0 + 1)]);
+    }
+    }
+    var tarih= new Date(); 
+    var gun = tarih.getDay(); // var olan günü aldık 1 == pazatesi , 7 == pazar
+    const [günHadis,setgünHadis]=useState() 
+    useEffect(()=>{ 
+      if(gun===1)
+      {
+        setgünHadis(GününHadisi[0].pazartesi)
+      }
+      if(gun===2)
+      {
+        setgünHadis(GününHadisi[0].sali)
+      }
+      if(gun===3){
+        setgünHadis(GününHadisi[0].carsamba)
+      }
+      if(gun===4){
+        setgünHadis(GününHadisi[0].persembe)
+      }
+      if(gun===5){
+        setgünHadis(GününHadisi[0].cuma)
+      }
+      if(gun===6)
+      {
+        setgünHadis(GününHadisi[0].cumartesi)
+      }
+      if(gun===7)
+      {
+        setgünHadis(GününHadisi[0].pazar)
+      }
+    },[gun])
+
 
  
   return (
@@ -84,26 +130,32 @@ useEffect(()=>{
         </Box>
         </Grid>
       </Grid>
- <center>     
-  <div className='contain_son_zikir'> 
-    <span className='home_son_zikir'>
-      <div className='zikir_ismi' >{location?.name}</div>
-      <div className='zikir_sayi' >son kaydedilen zikir : {zikirCountDizi[location?.index]}</div>
-    </span>
-  </div>
-</center>
+    <center>     
+      <div className='contain_son_zikir'> 
+        <span className='home_son_zikir'>
+          {
+            location ? // eğer zikirlerim sayfasından tıklayıp geldiyse o değeri göster yoksa default olarak SubhanAllah 
+            <>
+              <div className='zikir_ismi' >{location?.name}</div>
+            </> :
+            <>
+              <div className='zikir_ismi' >SubhanAllah</div>
+            </>
+          }
+          
+        </span>
+      </div>
+    </center>
       <div className='sayac'>
       <div className='sayac_ekran'>
         <span> {count} </span>
-
-
           <img src={resim} alt="sayac_cerceve"/>
       </div>
       </div>
 
 
       <div className='button'>
-        <button className='tik' onClick={()=>setCount(count+1)}>
+        <button className='tik' onClick={ClickButton}>
           <img src={cerceve} alt='btn_cerceve' />
           <img className='el' src={el} alt='zikir çeken el' />
         </button>
@@ -113,7 +165,7 @@ useEffect(()=>{
       </div>
     </div>
 
-    <button className='kaydet' onClick={saveCount}>Kaydet</button>
+   {/*  <button className='kaydet' onClick={saveCount}>Kaydet</button> */}
 
     
 

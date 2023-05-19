@@ -19,7 +19,7 @@ const MobilResimDegistir = () => {
 
   return (
     <div>
-        <Grid  container  p={5} spacing={3} display={'flex'} justifyContent={'center'} >
+        <Grid container p={5} spacing={3} display={'flex'} justifyContent={'center'} >
             {
                 Json.map((item,index)=>(
                     <Grid item xl={3} md={4} xs={11} p={2} borderRadius={5} m={1} bgcolor={"#e4d6ca"}>
@@ -34,7 +34,7 @@ const MobilResimDegistir = () => {
             }
            
         </Grid>
-        <a href='/#'>
+        <a href='#'>
   <ExpandLessIcon className='down' />
     </a>
     </div>
