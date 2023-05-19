@@ -72,11 +72,6 @@ const ResimJson=[
     {
         resim:'https://i.imgur.com/RhOPiGH.jpg'
     }   
-
-
-
-
-
     
 ]
 

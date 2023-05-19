@@ -22,7 +22,7 @@ function App() {
   useEffect(()=>{
     if(!localStorage.getItem("resim")) // localstorage de resim yoksa bir tane default arkaplan ayarladık
     {
-      localStorage.setItem("resim","https://i.imgur.com/DkKcTjw.jpg")
+      localStorage.setItem("resim","https://i.imgur.com/ChM58RM.jpg")
     }
     const abc = localStorage.getItem('resim') // localstoragedeki resim linkini aldık ve arkaplan olarak ayarladık
     document.body.style.backgroundImage = `url(${abc})`; 
