@@ -12,13 +12,9 @@
       background-repeat: no-repeat;
       background-size: cover ;
       background-attachment: fixed;
-      height: 100vh;
       background-position: center 80%; 
+      padding-bottom: 20px;
     }
-
-
-
-
   
     .arkaplan-mobil {
       display: block !important;
