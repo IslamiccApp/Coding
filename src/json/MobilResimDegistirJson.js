@@ -15,83 +15,83 @@ const mobilJson=[
     {
         "resim":"https://i.imgur.com/EB9kNrz.jpg"
     }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/7529416/pexels-photo-7529416.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // },
-    // {
-    //     "resim":"https://images.pexels.com/photos/3290075/pexels-photo-3290075.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/3214994/pexels-photo-3214994.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/15326295/pexels-photo-15326295.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/6825002/pexels-photo-6825002.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/2079655/pexels-photo-2079655.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/6010473/pexels-photo-6010473.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/5973404/pexels-photo-5973404.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/6751096/pexels-photo-6751096.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/4727408/pexels-photo-4727408.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/6010467/pexels-photo-6010467.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/9884692/pexels-photo-9884692.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/9486104/pexels-photo-9486104.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/7539810/pexels-photo-7539810.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/7524272/pexels-photo-7524272.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/7249628/pexels-photo-7249628.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/11118382/pexels-photo-11118382.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
+    ,
+    {
+        "resim":"https://i.imgur.com/9ckYVkF.jpg"
+    },
+    {
+        "resim":"https://i.imgur.com/kWsMwXg.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/4howicE.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/NfVVSUg.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/S1Tj6Jz.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/OU5JsIK.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/D8LVZQm.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/wdtiJfS.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/PygDTyx.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/qz08V38.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/qLfp8Lb.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/7Uj4icu.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/SuLLrKn.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/4JY8XrN.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/msmrylk.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/pFZhsIO.jpg"
+    }
+    ,
+    {
+        "resim":"https://i.imgur.com/0bqHBsc.jpg"
+    }
 
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/3873664/pexels-photo-3873664.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
+    ,
+    {
+        "resim":"https://i.imgur.com/66F94WE.jpg"
+    }
 
-    // ,
-    // {
-    //     "resim":"https://images.pexels.com/photos/2406731/pexels-photo-2406731.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    // }
+    ,
+    {
+        "resim":"https://i.imgur.com/zt9whVx.jpg"
+    }
 
     // ,
     // {
