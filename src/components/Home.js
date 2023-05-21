@@ -84,7 +84,7 @@ function Home({setzikirCountDizi,zikirCountDizi}) {
     }
     }
     var tarih= new Date(); 
-    var gun = tarih.getDay(); // var olan günü aldık 1 == pazatesi , 7 == pazar
+    var gun = tarih.getDay(); // var olan günü aldık 0 == pazar ,1 == pazatesi ... 0-6 arasında 
     const [günHadis,setgünHadis]=useState() 
     useEffect(()=>{ 
       if(gun===1)
@@ -108,7 +108,7 @@ function Home({setzikirCountDizi,zikirCountDizi}) {
       {
         setgünHadis(GününHadisi[0].cumartesi)
       }
-      if(gun===7)
+      if(gun===0)
       {
         setgünHadis(GününHadisi[0].pazar)
       }
