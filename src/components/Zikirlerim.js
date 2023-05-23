@@ -36,7 +36,7 @@ function Zikirlerim({zikirCountDizi,setzikirCountDizi}) {
             <div className='zikir_skor_ve_butonlar'>
                 <Typography variant='h5' mr={2}>Son Zikir:{zikirCountDizi[index]} </Typography>
                 <div>
-               <Link to='/' state={{name:item.hadisName,index:index}}><button className='buton_devamet btn'>Devat Et</button></Link>
+               <Link to='/' state={{name:item.hadisName,index:index}}><button className='buton_devamet btn'>Devam Et</button></Link>
                 <button className='buton_sil btn' onClick={()=>resetZikir(index)}>Sıfırla</button>
                 </div>
             </div></Grid>
