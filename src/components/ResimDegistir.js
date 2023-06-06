@@ -25,12 +25,12 @@ const ResimDegistir = () => {
         <Grid  container  p={5} spacing={3} display={'flex'} justifyContent={'center'} >
             {
                 ResimJson.map((item,index)=>(
-                    <Grid item xl={3} md={4} xs={11} p={2} borderRadius={5} m={1} bgcolor={"#e4d6ca"}>
+                    <Grid item xl={3} md={4} xs={11} p={2} borderRadius={5} m={1} bgcolor={"#e4d6ca"} key={index}>
                 <div className='container_degistir'> 
                     <div className='degistir'>
-                        <img src={item.resim} alt="asd" />
+                        <img src={item} alt="asd" />
                      </div>
-                    <span className='degistir_btn' onClick={()=>changePhoto(item.resim)}>Resmi değiştir</span>
+                    <span className='degistir_btn' onClick={()=>changePhoto(item)}>Resmi değiştir</span>
                 </div> 
             </Grid>
                 ))
