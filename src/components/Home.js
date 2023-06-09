@@ -84,35 +84,12 @@ function Home({setzikirCountDizi,zikirCountDizi}) {
     }
     }
     var tarih= new Date(); 
-    var gun = tarih.getDay(); // var olan günü aldık 1 == pazatesi , 7 == pazar
+    var gun = tarih.getDay(); // var olan günü aldık 0 == pazar ,1 == pazatesi ... 0-6 arasında 
     const [günHadis,setgünHadis]=useState() 
     useEffect(()=>{ 
-      if(gun===1)
-      {
-        setgünHadis(GününHadisi[0].pazartesi)
-      }
-      if(gun===2)
-      {
-        setgünHadis(GününHadisi[0].sali)
-      }
-      if(gun===3){
-        setgünHadis(GününHadisi[0].carsamba)
-      }
-      if(gun===4){
-        setgünHadis(GününHadisi[0].persembe)
-      }
-      if(gun===5){
-        setgünHadis(GününHadisi[0].cuma)
-      }
-      if(gun===6)
-      {
-        setgünHadis(GününHadisi[0].cumartesi)
-      }
-      if(gun===7)
-      {
-        setgünHadis(GününHadisi[0].pazar)
-      }
+      setgünHadis(GününHadisi[gun])
     },[gun])
+ 
 
 
  
