@@ -84,6 +84,7 @@ const HadislerJson=[
       Count:'',
      },
      {
+      
       hadisName:'Lâ ilahe illallahü melikül Hakkul Mübin',
       hadisMean:`Hz. Ali (r.a)’dan rivayetine göre Peygamberimiz (SAV) şöyle buyurmuştur;n“Bir kimse günde 100 defa ‘Lâ ilahe illallahü melikül Hakkul Mübin‘ derse, bu onun için fakirlikten eman ve kabir yalnızlığından kendisine yoldaş olur ve bununla zenginliği celb etmiş yani kendisine çekmiş ve Cennetin de kapısını çalmış olur” (Ramuz- elhadis)`,
       Count:'',

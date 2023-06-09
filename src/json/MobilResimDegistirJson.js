@@ -180,6 +180,7 @@ const mobilJson=[
     {
         "resim":"https://i.imgur.com/zt9whVx.jpg"
     }
+    
     // ,
     // {
     //     "resim":"https://images.pexels.com/photos/718646/pexels-photo-718646.jpeg?auto=compress&cs=tinysrgb&w=1600"
