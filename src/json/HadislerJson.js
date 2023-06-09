@@ -82,7 +82,6 @@ const HadislerJson=[
       hadisName:'Sübhânallahi ve bi-hamdihî, estağfirullâhe ve etûbü ileyh',
       hadisMean:`Hz. Aişe (ra)'un rivayetine göre, Efendimiz (SAV) sık sık şöyle derdi: “Sübhânallahi ve bi-hamdihî, estağfirullâhe ve etûbü ileyh. / Ben Allah’ı ulûhiyyet makamına yakışmayan sıfatlardan tenzih eder ve O’na hamd ederim. Allah’tan beni bağışlamasını diler ve günahlarıma tövbe ederim.” (Buharî, Ezan 123, 139; Müslim, Salat 218-220)`,
       Count:'',
-
      },
      {
       hadisName:'Lâ ilahe illallahü melikül Hakkul Mübin',

@@ -44,8 +44,8 @@ function App() {
       <Routes>
           <Route path="/" element={<Home zikirCountDizi={zikirCountDizi} setzikirCountDizi={setzikirCountDizi}/>}/>
           <Route path="/zikirlerim" element={<Zikirlerim zikirCountDizi={zikirCountDizi} setzikirCountDizi={setzikirCountDizi}/>}/>
-          <Route path="/hadisler" element={<Hadisler />}/>
-          <Route path="/esma-ül-hüsna" element={<Esma />}/>
+          <Route path="/hadisler" element={<Hadisler/>}/>
+          <Route path="/esma-ül-hüsna" element={<Esma/>}/>
           <Route path="/resmidegistir" element={<ResimDegistir />}/>
           <Route path="/mobilmenudegistir" element={<MobilResimDegistir />}/>
           <Route path="/bagis" element={<Bagis/>}/>
