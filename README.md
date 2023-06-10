@@ -13,3 +13,6 @@
 
 ### Resimi Düzenle
 ![Ekran görüntüsü 2023-06-10 sjpg](https://github.com/IslamiccApp/Coding/assets/126770706/5529044c-9685-48b1-96ae-de1c9fb64def)
+
+### Zikirlerim Sayfasını Ziyaret Etmek İster misin?
+https://coding-erkankolakan.vercel.app/
