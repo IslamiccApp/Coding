@@ -1,403 +1,497 @@
 const Esmaül =  [
-    
-          {
-            "name": "Allah",
-            "meal": "Eşi benzeri olmayan, Tek ilah, isimlerin sultanı"
-          },
-          {
-            "name": "Er-Rahman",
-            "meal": "Tüm yaratılanlara merhamet eden"
-          },
-          {
-            "name": "Er-Rahim",
-            "meal": "Ahirette inananlara sonsuz ihsan, ikram ve lütufta bulunan"
-          },
-          {
-            "name": "El-Melik",
-            "meal": "Tüm evrenin sahibi, saltanatı ve mülkü sürekli olan"
-          },
-          {
-            "name": "El-Kuddüs",
-            "meal": "Tüm eksikliklerden uzak"
-          },
-          {
-            "name": "Es-Selam",
-            "meal": "Tüm tehlikelerden selamete çıkaran"
-          },
-          {
-            "name": "El-Mü'min",
-            "meal": "Koruyan, Güvenilen"
-          },
-          {
-            "name": "El-Müheymin",
-            "meal": "Her şeyi gören ve gözeten"
-          },
-          {
-            "name": "El-Aziz",
-            "meal": "Her şeyin galibi ve izzet sahibi olan"
-          },
-          {
-            "name": "El-Cebbar",
-            "meal": "Kudret sahibi olan"
-          },
-          {
-            "name": "El-Mütekebbir",
-            "meal": "Eşi benzeri olmayan büyüklükte olan"
-          },
-          {
-            "name": "El-Halık",
-            "meal": "Yaratan"
-          },
-          {
-            "name": "El-Bari",
-            "meal": "Kusursuz ve eksiksiz yaratan"
-          },
-          {
-            "name": "El-Musavvir",
-            "meal": "Tüm varlıklara şekil veren"
-          },
-          {
-            "name": "El-Gaffar",
-            "meal": "Mağfireti bol olan"
-          },
-          {
-            "name": "El-Kahhar",
-            "meal": "Her şeye hakim olan"
-          },
-          {
-            "name": "El-Vehhab",
-            "meal": "Karşılıksız veren"
-          },
-          {
-            "name": "El-Rezzak",
-            "meal": "Rızık veren"
-          },
-          {
-            "name": "El-Fettah",
-            "meal": "Dardan kurtaran"
-          },
-          {
-            "name": "El-Alim",
-            "meal": "Her şeyi bilen ve gören"
-          },
-          {
-            "name": "El-Kabıd",
-            "meal": "Dilediğini darlık verme gücü olan"
-          },
-          {
-            "name": "El-Basıt",
-            "meal": "İstediğine bolluk veren"
-          },
-          {
-            "name": "El-Hafıd",
-            "meal": "Kafirleri alçaltan"
-          },
-          {
-            "name": "Er-Rafi",
-            "meal": "İnananları yükselten"
-          },
-          {
-            "name": "El-Mu'ız",
-            "meal": "Aziz kılan, dilediğini yücelten"
-          },
-          {
-            "name": "El-Müzil",
-            "meal": "Dilediğini değersiz kılan"
-          },
-          {
-            "name": "Es-Semi",
-            "meal": "Her şeyi duyan"
-          },
-          {
-            "name": "El-Basir",
-            "meal": "Her şeyi gören"
-          },
-          {
-            "name": "El-Hakem",
-            "meal": "Mutlak hakimiyete sahip olan"
-          },
-          {
-            "name": "El-Adl",
-            "meal": "Adil olan"
-          },
-          {
-            "name": "El-Latif",
-            "meal": "Kullarına değer veren"
-          },
-          {
-            "name": "El-Habir",
-            "meal": "Her şeyi bilen"
-          },
-          {
-            "name": "El-Halim",
-            "meal": "Ceza verirken acele etmeyen"
-          },
-          {
-            "name": "El-Azim",
-            "meal": "Yüce"
-          },
-          {
-            "name": "El-Gafur",
-            "meal": "Affedici olan"
-          },
-          {
-            "name": "Eş-Şekur",
-            "meal": "Az amelde bile çok sevap veren"
-          },
-          {
-            "name": "El-Aliyy",
-            "meal": "Yüce"
-          },
-          {
-            "name": "El-Kebir",
-            "meal": "Büyük olan"
-          },
-          {
-            "name": "El-Hafiz",
-            "meal": "Koruyan"
-          },
-          {
-            "name": "El-Mukit",
-            "meal": "Yaratılana rızkını veren"
-          },
-          {
-            "name": "El-Hasib",
-            "meal": "Hesaba alan"
-          },
-          {
-            "name": "El-Celil",
-            "meal": "Yüksek sıfatları olan"
-          },
-          {
-            "name": "El-Kerim",
-            "meal": "İkram eden"
-          },
-          {
-            "name": "Er-Rakib",
-            "meal": "Gören ve gözeten"
-          },
-          {
-            "name": "El-Mucib",
-            "meal": "Dualarını kabul eden"
-          },
-          {
-            "name": "El-Vasi",
-            "meal": "Rahmeti ve ilmi bol olan"
-          },
-          {
-            "name": "El-Hakim",
-            "meal": "Hikmetli"
-          },
-          {
-            "name": "El-Vedud",
-            "meal": "Kullarını seven"
-          },
-          {
-            "name": "El-Mecid",
-            "meal": "Şerefi yüksek olan"
-          },
-          {
-            "name": "El-Bais",
-            "meal": "Ölmüş olanları dirilten"
-          },
-          {
-            "name": "Eş-Şehid",
-            "meal": "Her zaman ve her yerde hazır olan"
-          },
-          {
-            "name": "El-Hakk",
-            "meal": "Hakkı gösteren"
-          },
-          {
-            "name": "El-Vekil",
-            "meal": "Tevekkül edenlerin işlerini yoluna koyan"
-          },
-          {
-            "name": "El-Kaviyy",
-            "meal": "Kudretli"
-          },
-          {
-            "name": "El-Metin",
-            "meal": "Güçlü olan"
-          },
-          {
-            "name": "El-Veliyy",
-            "meal": "İnananlara dost olan"
-          },
-          {
-            "name": "El-Hamid",
-            "meal": "Övgüye layık olan"
-          },
-          {
-            "name": "El-Muhsi",
-            "meal": "Tüm varlıkların sayısını bilen"
-          },
-          {
-            "name": "El-Mübdi",
-            "meal": "Yoktan var eden"
-          },
-          {
-            "name": "El-Muid",
-            "meal": "Öldüren ve sonrasında tekrar dirilten"
-          },
-          {
-            "name": "El-Muhyi",
-            "meal": "Dirilten, can veren"
-          },
-          {
-            "name": "El-Mümit",
-            "meal": "Öldüren"
-          },
-          {
-            "name": "El-Hayy",
-            "meal": "Sonsuz hayata sahip olan"
-          },
-          {
-            "name": "El-Kayyum",
-            "meal": "Varlıkları ayakta tutan"
-          },
-          {
-            "name": "El-Vacid",
-            "meal": "İstediğini her zaman bulan"
-          },
-          {
-            "name": "El-Macid",
-            "meal": "Şanı yüce olan"
-          },
-          {
-            "name": "El-Vahid",
-            "meal": "Eşi benzeri olmayan"
-          },
-          {
-            "name": "Es-Samed",
-            "meal": "Muhtaç olunan"
-          },
-          {
-            "name": "El-Kadir",
-            "meal": "Kudretli"
-          },
-          {
-            "name": "El-Mektedir",
-            "meal": "Her şeye gücü yeten"
-          },
-          {
-            "name": "El-Mukaddim",
-            "meal": "İstediğini yükselten"
-          },
-          {
-            "name": "El-Muahhir",
-            "meal": "Dilediğini geri bırakan"
-          },
-          {
-            "name": "El-Evvel",
-            "meal": "Ezeli"
-          },
-          {
-            "name": "El-Ahir",
-            "meal": "Ebedi"
-          },
-          {
-            "name": "El-Zahir",
-            "meal": "Varlığı açık olan"
-          },
-          {
-            "name": "El-Batın",
-            "meal": "Mahiyeti gizli olan"
-          },
-          {
-            "name": "El-Vali",
-            "meal": "Sahip olan"
-          },
-          {
-            "name": "El-Müteali",
-            "meal": "Yüce"
-          },
-          {
-            "name": "El-Berr",
-            "meal": "İyiliği bol olan"
-          },
-          {
-            "name": "Et-Tevvab",
-            "meal": "Günahları affeden"
-          },
-          {
-            "name": "El-Müntekim",
-            "meal": "İntikam alan"
-          },
-          {
-            "name": "El-Afüvv",
-            "meal": "Affeden"
-          },
-          {
-            "name": "Er-Rauf",
-            "meal": "Çok şefkatli"
-          },
-          {
-            "name": "Malikü'l-Mülk",
-            "meal": "Mülkün sahibi"
-          },
-          {
-            "name": "Zü'l-Celali ve'l-İkram",
-            "meal": "Azameti ve ikramı olan"
-          },
-          {
-            "name": 'El-Mucib',
-            "meal": 'Duaları kabul eden'
-            },
-            {
-            "name": 'El-Vasi',
-            "meal": 'Geniş rahmeti olan'
-            },
-            {
-            "name": 'El-Hakim',
-            "meal": 'Hüküm sahibi, hikmetli olan'
-            },
-            {
-            "name": 'El-Vedud',
-            "meal": 'Sevgi dolu'
-            },
-            {
-            "name": 'El-Mecid',
-            "meal": 'Şanı yüce olan'
-            },
-            {
-            "name": 'El-Bais',
-            "meal": 'Ölüleri dirilten'
-            },
-            {
-            "name": 'Eş-Şehid',
-            "meal": 'Her zaman hazır ve gözlemleyen'
-            },
-            {
-            "name": 'El-Hakk',
-            "meal": 'Gerçeği gösteren'
-            },
-            {
-            "name": 'El-Vekil',
-            "meal": 'Tüm işlerini düzgün bir şekilde yöneten'
-            },
-            {
-            "name": 'El-Kaviyy',
-            "meal": 'Güçlü ve kuvvetli olan'
-            },
-            {
-            "name": 'El-Metin',
-            "meal": 'Dayanıklı ve sağlam olan'
-            },
-            {
-            "name": 'El-Mübdi',
-            "meal": 'Başlangıcı yaratan'
-            },
-            {
-            "name": 'El-Muid',
-            "meal": 'Tekrar dirilten'
-            },
-            {
-            "name": 'El-Muhyi',
-            "meal": 'Can veren'
-            }
-        
-      
-      
+  {
+    "meaning": "Eşi benzeri olmayan, Tek ilah, isimlerin sultanı",
+    "arabic": "الله",
+    "value": "Allah (C.C)"
+  },
+    {
+      "meaning": "Tüm yaratılanlara merhamet eden",
+      "arabic": "الرحمن",
+      "value": "Er-Rahman"
+    },
+    {
+      "meaning": "Ahirette inananlara sonsuz ihsan, ikram ve lütufta bulunan",
+      "arabic": "الرحيم",
+      "value": "Er-Rahim"
+    },
+   {
+      "meaning": "Tüm evrenin sahibi, saltanatı ve mülkü sürekli olan",
+      "arabic": "الملك",
+      "value": "El-Melik"
+    },
+   {
+      "meaning": "Tüm eksikliklerden uzak",
+      "arabic": "القدوس",
+      "value": "El-Kuddüs"
+    },
+  {
+      "meaning": "Tüm tehlikelerden selamete çıkaran",
+      "arabic": "السلام",
+      "value": "Es-Selam"
+    },
+  {
+      "meaning": "Koruyan, Güvenilen",
+      "arabic": "المؤمن",
+      "value": "El-Mü'min"
+    },
+  {
+      "meaning": "Her şeyi gören ve gözeten",
+      "arabic": "المهيمن",
+      "value": "El-Müheymin"
+    },
+    {
+      "meaning": "Her şeyin galibi ve izzet sahibi olan",
+      "arabic": "العزيز",
+      "value": "El-Aziz"
+    },
+ {
+      "meaning": "Kudret sahibi olan",
+      "arabic": "الجبار",
+      "value": "El-Cebbar"
+    },
+    {
+      "meaning": "Eşi benzeri olmayan büyüklükte olan",
+      "arabic": "المتكبر",
+      "value": "El-Mütekebbir"
+    },
+ {
+      "meaning": "Yaratan",
+      "arabic": "الخالق",
+      "value": "El-Halık"
+    },
+   {
+      "meaning": "Kusursuz ve eksiksiz yaratan",
+      "arabic": "البارئ",
+      "value": "El-Bari"
+    },
+    {
+      "meaning": "Tüm varlıklara şekil veren",
+      "arabic": "المصور",
+      "value": "El-Musavvir"
+    },
+   {
+      "meaning": "Mağfireti bol olan",
+      "arabic": "الغفار",
+      "value": "El-Gaffar"
+    },
+    {
+      "meaning": "Her şeye hakim olan",
+      "arabic": "القهار",
+      "value": "El-Kahhar"
+    },
+   {
+      "meaning": "Karşılıksız veren",
+      "arabic": "الوهاب",
+      "value": "El-Vehhab"
+    },
+     {
+      "meaning": "Rızık veren",
+      "arabic": "الرزاق",
+      "value": "El-Rezzak"
+    },
+   {
+      "meaning": "Dardan kurtaran",
+      "arabic": "الفتاح",
+      "value": "El-Fettah"
+    },
+    {
+      "meaning": "Her şeyi bilen ve gören",
+      "arabic": "العليم",
+      "value": "El-Alim"
+    },
+     {
+      "meaning": "Dilediğini darlık verme gücü olan",
+      "arabic": "القابض",
+      "value": "El-Kabıd"
+    },
+     {
+      "meaning": "İstediğine bolluk veren",
+      "arabic": "الباسط",
+      "value": "El-Basıt"
+    },
+     {
+      "meaning": "Kafirleri alçaltan",
+      "arabic": "الحافظ",
+      "value": "El-Hafıd"
+    },
+     {
+      "meaning": "İnananları yükselten",
+      "arabic": "الرافع",
+      "value": "Er-Rafi"
+    },
+     {
+      "meaning": "Aziz kılan, dilediğini yücelten",
+      "arabic": "المعز",
+      "value": "El-Mu'ız"
+    },
+     {
+      "meaning": "Dilediğini değersiz kılan",
+      "arabic": "المذل",
+      "value": "El-Müzil"
+    },
+   {
+      "meaning": "Her şeyi duyan",
+      "arabic": "السميع",
+      "value": "Es-Semi"
+    },
+     {
+      "meaning": "Her şeyi gören",
+      "arabic": "البصير",
+      "value": "El-Basir"
+    },
+     {
+      "meaning": "Mutlak hakimiyete sahip olan",
+      "arabic": "الحكيم",
+      "value": "El-Hakem"
+    },
+    {
+      "meaning": "Adil olan",
+      "arabic": "العدل",
+      "value": "El-Adl"
+    },
+    {
+      "meaning": "Kullarına değer veren",
+      "arabic": "اللطيف",
+      "value": "El-Latif"
+    },
+    {
+      "meaning": "Her şeyi bilen",
+      "arabic": "الخبير",
+      "value": "El-Habir"
+    },
+     {
+      "meaning": "Ceza verirken acele etmeyen",
+      "arabic": "الحليم",
+      "value": "El-Halim"
+    },
+     {
+      "meaning": "Yüce",
+      "arabic": "العظيم",
+      "value": "El-Azim"
+    },
+    {
+      "meaning": "Affedici olan",
+      "arabic": "الغفور",
+      "value": "El-Gafur"
+    },
+     {
+      "meaning": "Az amelde bile çok sevap veren",
+      "arabic": "الشكور",
+      "value": "Eş-Şekur"
+    },
+     {
+      "meaning": "Yüce",
+      "arabic": "العلي",
+      "value": "El-Aliyy"
+    },
+     {
+      "meaning": "Büyük olan",
+      "arabic": "الكبير",
+      "value": "El-Kebir"
+    },
+    {
+      "meaning": "Koruyan",
+      "arabic": "الحفيظ",
+      "value": "El-Hafiz"
+    },
+     {
+      "meaning": "Yaratılana rızkını veren",
+      "arabic": "المقيت",
+      "value": "El-Mukit"
+    },
+     {
+      "meaning": "Hesaba alan",
+      "arabic": "الحسيب",
+      "value": "El-Hasib"
+    },
+     {
+      "meaning": "Yüksek sıfatları olan",
+      "arabic": "الجليل",
+      "value": "El-Celil"
+    },
+     {
+      "meaning": "İkram eden",
+      "arabic": "الكريم",
+      "value": "El-Kerim"
+    },
+     {
+      "meaning": "Gören ve gözeten",
+      "arabic": "الرقيب",
+      "value": "Er-Rakib"
+    },
+     {
+      "meaning": "Dualarını kabul eden",
+      "arabic": "المجيب",
+      "value": "El-Mucib"
+    },
+    {
+      "meaning": "Rahmeti ve ilmi bol olan",
+      "arabic": "الواسع",
+      "value": "El-Vasi"
+    },
+     {
+      "meaning": "Hikmetli",
+      "arabic": "الحكيم",
+      "value": "El-Hakim"
+    },
+    {
+      "meaning": "Kullarını seven",
+      "arabic": "الودود",
+      "value": "El-Vedud"
+    },
+     {
+      "meaning": "Şerefi yüksek olan",
+      "arabic": "المجيد",
+      "value": "El-Mecid"
+    },
+     {
+      "meaning": "Ölmüş olanları dirilten",
+      "arabic": "الباعث",
+      "value": "El-Bais"
+    },
+     {
+      "meaning": "Her zaman ve her yerde hazır olan",
+      "arabic": "الشهيد",
+      "value": "Eş-Şehid"
+    },
+     {
+      "meaning": "Hakkı gösteren",
+      "arabic": "الحق",
+      "value": "El-Hakk"
+    },
+    {
+      "meaning": "Tevekkül edenlerin işlerini yoluna koyan",
+      "arabic": "الوكيل",
+      "value": "El-Vekil"
+      },
+      {
+      "meaning": "Kudretli",
+      "arabic": "القوي",
+      "value": "El-Kaviyy"
+      },
+       {
+      "meaning": "Güçlü olan",
+      "arabic": "المتين",
+      "value": "El-Metin"
+      },
+      {
+      "meaning": "İnananlara dost olan",
+      "arabic": "الولي",
+      "value": "El-Veliyy"
+      },
+       {
+      "meaning": "Övgüye layık olan",
+      "arabic": "الحميد",
+      "value": "El-Hamid"
+      },
+       {
+      "meaning": "Tüm varlıkların sayısını bilen",
+      "arabic": "المحصي",
+      "value": "El-Muhsi"
+      },
+      {
+      "meaning": "Yoktan var eden",
+      "arabic": "المبدئ",
+      "value": "El-Mübdi"
+      },
+       {
+      "meaning": "Öldüren ve sonrasında tekrar dirilten",
+      "arabic": "المعيد",
+      "value": "El-Muid"
+      },
+       {
+      "meaning": "Dirilten, can veren",
+      "arabic": "المحيي",
+      "value": "El-Muhyi"
+      },
+       {
+      "meaning": "Öldüren",
+      "arabic": "المميت",
+      "value": "El-Mümit"
+      },
+       {
+      "meaning": "Sonsuz hayata sahip olan",
+      "arabic": "الحي",
+      "value": "El-Hayy"
+      },
+     {
+      "meaning": "Varlıkları ayakta tutan",
+      "arabic": "القيوم",
+      "value": "El-Kayyum"
+      },
+      {
+      "meaning": "İstediğini her zaman bulan",
+      "arabic": "الواجد",
+      "value": "El-Vacid"
+      },
+      {
+      "meaning": "Şanı yüce olan",
+      "arabic": "الماجد",
+      "value": "El-Macid"
+      },
+      {
+      "meaning": "Eşi benzeri olmayan",
+      "arabic": "الواحد",
+      "value": "El-Vahid"
+      },
+       {
+      "meaning": "Muhtaç olunan",
+      "arabic": "الصمد",
+      "value": "Es-Samed"
+      },
+       {
+      "meaning": "Kudretli",
+      "arabic": "القدير",
+      "value": "El-Kadir"
+      },
+       {
+      "meaning": "Her şeye gücü yeten",
+      "arabic": "المقتدر",
+      "value": "El-Mektedir"
+      },
+       {
+      "meaning": "İstediğini yükselten",
+      "arabic": "المقدم",
+      "value": "El-Mukaddim"
+      },
+      {
+      "meaning": "Dilediğini geri bırakan",
+      "arabic": "المؤخر",
+      "value": "El-Muahhir"
+      },
+       {
+      "meaning": "Ezeli",
+      "arabic": "الأول",
+      "value": "El-Evvel"
+      },
+       {
+      "meaning": "Ebedi",
+      "arabic": "الآخر",
+      "value": "El-Ahir"
+      },
+       {
+      "meaning": "Varlığı açık olan",
+      "arabic": "الظاهر",
+      "value": "El-Zahir"
+      },
+       {
+      "meaning": "Mahiyeti gizli olan",
+      "arabic": "الباطن",
+      "value": "El-Batın"
+      },
+      {
+      "meaning": "Sahip olan",
+      "arabic": "الولي",
+      "value": "El-Vali"
+      },
+       {
+      "meaning": "Yüce",
+      "arabic": "المتعالي",
+      "value": "El-Müteali"
+      },
+       {
+      "meaning": "İyiliği bol olan",
+      "arabic": "البر",
+      "value": "El-Berr"
+      },
+       {
+      "meaning": "Günahları affeden",
+      "arabic": "التواب",
+      "value": "Et-Tevvab"
+      },
+      {
+      "meaning": "İntikam alan",
+      "arabic": "المنتقم",
+      "value": "El-Müntekim"
+      },
+       {
+      "meaning": "Affeden",
+      "arabic": "العفو",
+      "value": "El-Afüvv"
+      },
+       {
+      "meaning": "Merhametli olan",
+      "arabic": "الرؤوف",
+      "value": "Er-Rauf"
+      },
+       {
+      "meaning": "Tüm varlıkların sahibi olan",
+      "arabic": "مالك الملك",
+      "value": "Malik-ül Mülk"
+      },
+       {
+      "meaning": "Celal sahibi ve ikram sahibi",
+      "arabic": "ذو الجلال والإكرام",
+      "value": "Zül-Celali vel İkram"
+      },
+      {
+      "meaning": "Adaletli olan",
+      "arabic": "المقسط",
+      "value": "El-Muksit"
+      },
+     {
+      "meaning": "Mahşer günü bir araya toplayan",
+      "arabic": "الجامع",
+      "value": "El-Cami"
+      },
+       {
+      "meaning": "Kimseye muhtaç olmayan",
+      "arabic": "الغني",
+      "value": "El-Ganiyy"
+      },
+       {
+      "meaning": "Müstağni",
+      "arabic": "المغني",
+      "value": "El-Mugni"
+      },
+       {
+      "meaning": "İstediği bir şeye mani olan",
+      "arabic": "المانع",
+      "value": "El-Mani"
+      },
+       {
+      "meaning": "İstediğine zarar veren",
+      "arabic": "الضار",
+      "value": "Ed-Darr"
+      },
+       {
+      "meaning": "İstediğine fayda veren",
+      "arabic": "النافع",
+      "value": "En-Nafi"
+      },
+       {
+      "meaning": "Alemi aydınlatan",
+      "arabic": "النور",
+      "value": "En-Nur"
+      },
+       {
+      "meaning": "Hidayet sahibi",
+      "arabic": "الهادي",
+      "value": "Al-Hadi"
+      },
+       {
+      "meaning": "Benzersiz yaratan",
+      "arabic": "البديع",
+      "value": "El-Bedi"
+      },
+       {
+      "meaning": "Ebedi",
+      "arabic": "الباقي",
+      "value": "El-Baki"
+      },
+       {
+      "meaning": "Tüm her şeyin tek sahibi",
+      "arabic": "الوارث",
+      "value": "El-Varis"
+      },
+      {
+      "meaning": "Yol gösteren",
+      "arabic": "الرشيد",
+      "value": "Er-Reşid"
+      },
+       {
+      "meaning": "Ceza vermek için acele etmeyen",
+      "arabic": "الصبور",
+      "value": "Es-Sabur"}
 ]
 export default Esmaül;

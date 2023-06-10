@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap');
+
+
 *
 {
     text-decoration: none;
@@ -5,5 +9,11 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+
+.font{
+    font-family: 'Amiri Quran', serif;
+    font-size: 20px;
+}
+
 
 
