@@ -1,4 +1,4 @@
-# Zikir Uygulaması ![WhatsApp Görsel 2023-06-10 saat 21 56 54](https://github.com/IslamiccApp/Coding/assets/126770706/b331ca2d-5748-4315-8333-83a27ffc3f1b)
+# Zikir Uygulaması 
 ### Anasayfa
 ![Ekran görüntüsü 2023-06-10 220510](https://github.com/IslamiccApp/Coding/assets/126770706/3b2c0a63-e0e0-4515-952b-7ab5f991269b)
 
