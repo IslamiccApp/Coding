@@ -23,12 +23,7 @@ function Hadisler() {
         <Grid key={index} md={10} xs={11} item mt={3} className='hadis_11'> {/*Hadis-1 */}
         <Grid container display='flex' alignItems='center' p={'1%'}>
             <Grid xs={12} p={'1%'} item>
-                <Typography variant='h4'>{item.name}</Typography>
-            </Grid>
-            <Grid xs={12} p={'1%'} item>
-                <Typography variant='h4'  className='zikir_yazi'>
-                {item.meal}
-                </Typography>
+                <Typography variant='h4'>{item}</Typography>
             </Grid>
         </Grid>
         </Grid>
