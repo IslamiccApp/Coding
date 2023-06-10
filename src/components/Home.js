@@ -19,6 +19,20 @@ function Home({setzikirCountDizi,zikirCountDizi}) {
   const location =useLocation().state
   const [count, setCount] = useState();
 
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch("https://api.hadith.gading.dev/books/bukhari?range=100-200");
+        const data = await response.json();
+        console.log(data);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  
+    fetchData();
+  }, []);
+  
 
   useState(()=>{
     if(location)
