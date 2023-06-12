@@ -18,6 +18,7 @@ import MobilResimDegistir from './components/MobilResimDegistir';
 
 function App() {
   const [zikirCountDizi,setzikirCountDizi] = useState(JSON.parse(localStorage.getItem('CountDizi'))|| [])  
+
   
   useEffect(()=>{
     if(!localStorage.getItem("resim")) // localstorage de resim yoksa bir tane default arkaplan ayarladık
@@ -35,6 +36,16 @@ function App() {
     localStorage.setItem('CountDizi',JSON.stringify(zikirCountDizi)) // diziyi locale yazdırdık
     
   },[zikirCountDizi])
+
+  useEffect(()=>{ // yeni zikirler eklendiği zaman tüm diziyi 0 dan başlatır bir sorun halledildi
+    //MANTIK HATASI VAR eski değerleri de korumamız lazım dizinin sonuna yeni dizinin uzunluğu kadar 0 push yapmamız lazım
+    if(zikirCountDizi.length !==HadislerJson.length)
+      {
+        setzikirCountDizi([])
+      }
+  },[zikirCountDizi.length])
+  
+
   return (
     <>
     <div className="App" >

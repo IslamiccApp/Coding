@@ -26,7 +26,7 @@ const esma = () => {
         <Grid md={5} xs={11} item mt={3} className='hadis_11' mr={2}> {/*Hadis-1 */}
         <Grid container display='flex' alignItems='center' p={'1%'}>
             <Grid xs={12} p={'1%'} item>
-                <Typography variant='h4'>{index+1}-{item.value } <span className='font'>( {(item.arabic)} </span> )</Typography>
+                <Typography variant='h4' className='esmaül_baslik'>{index+1}-{item.value } <span className='font'>( {(item.arabic)} </span> )</Typography>
              
             </Grid>
             <Grid xs={12} p={'1%'} item>

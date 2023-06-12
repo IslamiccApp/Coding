@@ -37,7 +37,7 @@ function Hadisler() {
             {/* Hadis-1 */}
             <Grid container display="flex" alignItems="center" p={'1%'}>
               <Grid xs={12} p={'1%'} item>
-                <Typography variant="h4">{item}</Typography>
+                <Typography variant="h4" className='zikir_yazi1'>{item}</Typography>
               </Grid>
             </Grid>
           </Grid>
