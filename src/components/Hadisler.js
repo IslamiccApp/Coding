@@ -7,7 +7,7 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 function Hadisler() {
   const [karisikDizi, setKarisikDizi] = useState(GercekHadislerJson);
 
-  useEffect(() => {
+/*   useEffect(() => {
     const interval = setInterval(() => {
       const yeniKarisikDizi = [...karisikDizi];
       for (let i = yeniKarisikDizi.length - 1; i > 0; i--) {
@@ -20,7 +20,16 @@ function Hadisler() {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, []); */
+
+  useEffect(()=>{
+    const yeniKarisikDizi = [...karisikDizi];
+      for (let i = yeniKarisikDizi.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [yeniKarisikDizi[i], yeniKarisikDizi[j]] = [yeniKarisikDizi[j], yeniKarisikDizi[i]];
+      }
+      setKarisikDizi(yeniKarisikDizi);
+  },[])
 
   return (
     <>

@@ -53,20 +53,6 @@ function Home({setzikirCountDizi,zikirCountDizi}) {
   };
   
 
-/*   const saveCount = () => {
-    toast.success("Başarıyla kaydedildi")
-    if(location)
-    {
-      setzikirCountDizi([...zikirCountDizi.slice(0, location.index), count, ...zikirCountDizi.slice(location.index + 1)]);
-
-    }
-    else
-    {
-      setzikirCountDizi([...zikirCountDizi.slice(0, 0), count, ...zikirCountDizi.slice(0 + 1)]);
-    }
-
-  } */
-
   const resetCount = () => { // tıkladığımız elemanı localstoragedeki diziden sıfırlar
     setCount(0)
     if(location)
