@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+#Zikir Uygulaması
+Bu proje, İslamik zikirlerin takip edilmesini sağlayan etkileyici bir React web uygulamasıdır. Aşağıda, uygulamanın bazı önemli sayfalarının ekran görüntülerini bulabilirsiniz.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Anasayfa
+![Ekran görüntüsü 2023-06-10 220510](https://github.com/IslamiccApp/Coding/assets/126770706/3b2c0a63-e0e0-4515-952b-7ab5f991269b)
 
-## Available Scripts
+Zikirler
+![Ekran görüntüsü 2023-s-10 220539](https://github.com/IslamiccApp/Coding/assets/126770706/7e17180d-0223-418b-845e-557e14e8b166)
 
-In the project directory, you can run:
+Hadisler
+![Ekran görüntüsü 2023-06-10 220604](https://github.com/IslamiccApp/Coding/assets/126770706/6a3af7d8-0bdd-4e9b-b914-5bb0001af85e)
 
-### `npm start`
+Esmaül Hüsna
+![Ekran s2023-06-10 220627](https://github.com/IslamiccApp/Coding/assets/126770706/a8309ea4-9336-4587-9a5d-84edeea15427)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Resimi Düzenle
+![Ekran görüntüsü 2023-06-10 sjpg](https://github.com/IslamiccApp/Coding/assets/126770706/5529044c-9685-48b1-96ae-de1c9fb64def)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Uygulama ayrıca "Zikirlerim" sayfasını içermektedir. Bu sayfayı ziyaret ederek daha fazla bilgiye ve uygulamayı deneyimlemeye davet ediyoruz.
 
-### `npm test`
+Zikirlerim Sayfasını Ziyaret Etmek İçin Tıklayın:
+https://coding-erkankolakan.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bu zikir uygulaması, kullanıcıların İslamik zikirleri takip etmelerini, manevi yolculuklarında ilerlemelerini sağlamayı hedeflemektedir. Uygulamanın kullanıcı dostu arayüzü ve etkileyici tasarımıyla, kullanıcıların dikkatini çekmeyi amaçlıyoruz. Proje geliştirme sürecinde React kullanılarak güçlü bir temel oluşturuldu ve kullanıcı deneyimini en üst düzeye çıkarmak için özenle çalışıldı.
 
-### `npm run build`
+Bu proje, İslamik bir zikirmatik web uygulamasının geliştirilmesinde bir adımdır ve daha fazla özelliğin eklenmesi ve iyileştirme çalışmalarının devam edeceği bir başlangıç noktasıdır. Uygulamanın açık kaynak kodlu olduğunu ve herhangi bir katkıya açık olduğunu belirtmek isteriz.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Daha fazla bilgi ve uygulamayı deneyimlemek için yukarıdaki linki kullanabilirsiniz.
